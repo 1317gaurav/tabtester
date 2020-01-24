@@ -7,6 +7,6 @@ $client->addScope(Google_Service_Oauth2::USERINFO_PROFILE);
 $client->addScope(Google_Service_Oauth2::USERINFO_EMAIL);
 $client->addScope(Google_Service_Oauth2::USERINFO_EMAIL);
 $client->addScope(Google_Service_Oauth2::PLUS_ME);
-$client->setRedirectUri("http://brahmarishisaubhari.com/feedback/");
+$client->setRedirectUri("http://ps001.taboolasyndication.com:8999/feedback/");
 
 ?>
