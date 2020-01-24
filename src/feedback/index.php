@@ -12,7 +12,7 @@ require_once 'googleApi/vendor/autoload.php';
 // init configuration
 $clientID = '592478387109-6va631t02q33fn7h8cik8tm6dib1f7pa.apps.googleusercontent.com';
 $clientSecret = '1DsOX3JydOKxzcwP1tN0Orq-';
-$redirectUri = 'http://brahmarishisaubhari.com/feedback/';
+$redirectUri = 'http://ps001.taboolasyndication.com:8999/feedback/';
   
 // create Client Request to access Google API
 $client = new Google_Client();
