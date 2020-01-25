@@ -113,13 +113,7 @@ $dateTime=date("M,d,Y h:i:s A");
     }, 600);
 </script>';
                 }  
-             
 
-
-
- 
-// Close connection
-mysqli_close($db);
 }
 else{
        echo '<script>
