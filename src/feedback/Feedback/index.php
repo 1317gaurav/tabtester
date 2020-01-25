@@ -1,8 +1,3 @@
-
-<?php
-session_start();
-
-?>
 <html>
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css"></head>
