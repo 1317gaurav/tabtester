@@ -1,7 +1,5 @@
 <?php
 session_start();
-
-
 ?>
 <html>
 <head>
@@ -75,23 +73,7 @@ $domain1="@taboola.com";
 
 if($domain == $domain1)
 {
-    mail("$to", $subject, $message, $headers);
-    
-    
-    
-    $msg = "First line of text\nSecond line of text";
-
-// use wordwrap() if lines are longer than 70 characters
-$msg = wordwrap($msg,70);
-
-// send email
-mail("gaurav.k@taboola.com","My subject",$msg);
-    
-    
-    
-    
-    
-    
+ mail($to, $subject, $message, $headers);
  $message = '';  
  $error = '';  
   
@@ -131,6 +113,13 @@ $dateTime=date("M,d,Y h:i:s A");
     }, 600);
 </script>';
                 }  
+             
+
+
+
+ 
+// Close connection
+mysqli_close($db);
 }
 else{
        echo '<script>
