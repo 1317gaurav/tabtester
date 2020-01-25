@@ -67,7 +67,7 @@ $domain1="@taboola.com";
 if($domain == $domain1)
 {
     
-    header("location: home.php");
+    header("location: https://www.geeksforgeeks.org/how-to-make-a-redirect-in-php/");
 }
 else{
     echo '<script>
