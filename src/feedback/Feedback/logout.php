@@ -5,7 +5,7 @@ session_destroy(); //destroy the session
 ?>
 
 <script>
-        window.location="../../src/";
+        window.location="../../index.html";
         </script>
 
 <?php
