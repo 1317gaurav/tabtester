@@ -8,7 +8,7 @@ session_start();
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css"></head>
     
 <?php
-require_once 'googleApi/vendor/autoload.php';
+require_once '../googleApi/vendor/autoload.php';
  
 // init configuration
 $clientID = '592478387109-6va631t02q33fn7h8cik8tm6dib1f7pa.apps.googleusercontent.com';
@@ -72,7 +72,7 @@ $domain1="@taboola.com";
 if($domain == $domain1)
 {
     
-    header("location: Feedback/home.php");
+    header("location: home.php");
 }
 else{
     echo '<script>
