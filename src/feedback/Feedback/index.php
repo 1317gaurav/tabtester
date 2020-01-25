@@ -66,7 +66,11 @@ $domain1="@taboola.com";
 
 if($domain == $domain1)
 {
-    echo 'hare krishna';
+    ?>
+    <script>
+        window.location="home.php";
+        </script>
+    <?php
 }
 else{
     echo '<script>
