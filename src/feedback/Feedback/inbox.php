@@ -33,17 +33,6 @@ foreach ($data as $key => $entry) {
 $newJsonString = json_encode($data);
 file_put_contents('users.json', $newJsonString);
 
-
-
-
-
-
-$sql = "SELECT count('pread') as 'unread' FROM `sent` WHERE `to`='$from' and `pread`=0";
-$result=mysqli_query($db, $sql);
-
-$data=mysqli_fetch_array($result);
-$u= $data['unread'];
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
