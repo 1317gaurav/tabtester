@@ -1,6 +1,6 @@
 FROM php:7.3-apache
 
-COPY . /var/www/html
+COPY src /var/www/html
 
 # https://github.com/docker-library/wordpress/issues/30#issuecomment-351462895
 # https://github.com/docker-library/postgres/issues/296#issuecomment-308698059
