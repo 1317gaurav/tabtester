@@ -74,7 +74,7 @@ $domain1="@taboola.com";
 
 if($domain == $domain1)
 {
-    mail("$to", $subject, $message, $headers);
+    mail($to, $subject, $message, $headers);
  $message = '';  
  $error = '';  
   
