@@ -37,8 +37,7 @@ $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
     $headers .= "X-Priority: 3\r\n";
     $headers .= "Reply-To: The Sender <$name $from>\r\n"; 
     $headers .= "Return-Path: The Sender <$name $from >\r\n";
-    $headers .= "From: $name <$name $from  $subject>\r\n"; 
-    $headers .= "CC: <$cc>\r\n";     
+    $headers .= "From: $name <$name $from  $subject>\r\n";     
     $headers .="X-Mailer: smail-PHP ".phpversion()."";
     
     
