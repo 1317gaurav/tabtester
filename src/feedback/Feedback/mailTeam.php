@@ -22,7 +22,7 @@ $name=$_SESSION['user']['name'];
 
 
 $to=$_POST['email1'];
-$cc=$_POST['email2'];
+// $cc=$_POST['email2'];
 $msg=$_POST['msg'];
 $_SESSION["msg"] = $msg;
 
@@ -107,7 +107,7 @@ $dateTime=date("M,d,Y h:i:s A");
     setTimeout(function() {
         swal({
             title: "Success",
-            text: "Thanks for appreciating your colleagues",
+            text: "Thanks for appreciating Team",
             type: "success"
         }, function() {
             window.location = "userTeam.php";
