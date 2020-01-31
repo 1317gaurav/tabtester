@@ -56,7 +56,7 @@ $toUserName=ucfirst($toUser);
        <span style="font-size:20px"><i>You have received a shout Out from<b> '.$name.'</b> for exhibiting <b>'.$msg.'</b> as a quality.
 </i></span> <br/><br/>
       <span><img src="http://brahmarishisaubhari.com/feedback/Feedback/assets/img/logo.png"/></span> <br/>
-       <span style="font-size:20px"><b><p style="float:left;">Comment</b>:</p>&nbsp;'.$msg1.'</span><br/><br/><br/>
+       <span style="font-size:20px"><b><p style="float:left;">Comment</b>:&nbsp;'.$msg1.'</p></span><br/><br/>
        <span style="font-size:18px"><b>Thank you for your dedication and commitment.</b><br/><br/></span> 
        <span style="font-size:18px; color"><i>&nbsp;'.date("Y/m/d").'</i></span><br>
 </div>
