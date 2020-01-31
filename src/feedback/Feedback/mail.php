@@ -28,7 +28,6 @@ $date=date("Y/m/d");
 
 $msg1=$_POST['msg1'];
 $subject = "ShoutOut from $name ";
-
 $headers  = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 
@@ -56,7 +55,7 @@ $toUserName=ucfirst($toUser);
        <span style="font-size:25px;color:#003399;"><b>'.$toUserName.'</b></span><br/><br/>
        <span style="font-size:20px"><i>You have received a shout Out from<b> '.$name.'</b> for exhibiting <b>'.$msg.'</b> as a quality.
 </i></span> <br/><br/>
-      <span style="font-size:30px"><img src=\"http://ps001.taboolasyndication.com:8999/feedback/Feedback/assets/img/logo.png\" /></span> <br/><br/>
+      <span style="font-size:30px"><img src="http://brahmarishisaubhari.com/feedback/Feedback/assets/img/logo.png"/></span> <br/><br/>
        <span style="font-size:20px"><b>Comment</b>:&nbsp;'.$msg1.' <br/><br/><br/></span> 
         <span style="font-size:20px"><b>Thank you for your dedication and commitment.</b><br/><br/></span> 
        <span style="font-size:18px; color"><i>&nbsp;'.date("Y/m/d").'</i></span><br>
