@@ -48,16 +48,16 @@ $toUserName=ucfirst($toUser);
  $message = '
  <div style="width:700px; height:700px; padding:20px; text-align:center; border: 10px solid #003399;">
 <div style="width:650px; height:650px; padding:20px; text-align:center; border: 5px solid #003399">
-       <span style="font-size:50px; font-weight:bold">Certificate of Appreciation</span>
+       <span style="font-size:50px; font-weight:normal">Certificate of Appreciation</span>
        <br><br>
        <span style="font-size:20px"><i>Awarded to</i></span>
        <br><br>
        <span style="font-size:25px;color:#003399;"><b>'.$toUserName.'</b></span><br/><br/>
        <span style="font-size:20px"><i>You have received a shout Out from<b> '.$name.'</b> for exhibiting <b>'.$msg.'</b> as a quality.
 </i></span> <br/><br/>
-      <span style="font-size:30px"><img src="http://brahmarishisaubhari.com/feedback/Feedback/assets/img/logo.png"/></span> <br/>
-       <span style="font-size:20px"><b>Comment</b>:&nbsp;'.$msg1.' <br/><br/><br/></span> 
-        <span style="font-size:20px"><b>Thank you for your dedication and commitment.</b><br/><br/></span> 
+      <span><img src="http://brahmarishisaubhari.com/feedback/Feedback/assets/img/logo.png"/></span> <br/>
+       <span style="font-size:20px"><b><p style="float:left;">Comment</b>:</p>&nbsp;'.$msg1.'</span><br/><br/><br/>
+       <span style="font-size:18px"><b>Thank you for your dedication and commitment.</b><br/><br/></span> 
        <span style="font-size:18px; color"><i>&nbsp;'.date("Y/m/d").'</i></span><br>
 </div>
 </div>
