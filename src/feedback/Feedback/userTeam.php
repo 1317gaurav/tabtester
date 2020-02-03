@@ -169,7 +169,7 @@ $count=1;
      <option value="2nd-level-support-media@taboola.com"> 2nd-level-support-media</option>
      <option value="2nd-level-support-pub@taboola.com">2nd-level-support-pub</option>
     
-        <option value="csd-us@taboola.com">CSD - US </option>
+        <option value="csd-us@taboola.com">CSD - US</option>
         <option value="csd-emea@taboola.com">CSD - EMEA </option>
         <option value="csd-apac@taboola.com">CSD - APAC</option>
         
