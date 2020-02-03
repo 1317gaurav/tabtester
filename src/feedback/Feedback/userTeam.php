@@ -161,18 +161,20 @@ $count=1;
   <select class="form-control dropdown" id="occupation" name="email1">
     <option value="" selected="selected" disabled="disabled">-- select Team --</option>
     
-    <option value="gaurav.k@taboola.com">TI - Best Practice Implementation</option>
-   <option value="gaurav.k@taboola.com">TI - Custom Implementation</option>
-        <option value="gaurav.k@taboola.com">TI - Pre sale design</option>
-      <option value="gaurav.k@taboola.com">Customer Support - 1st Level</option>
-      <option value="gaurav.k@taboola.com">Customer Support - 2nd Level</option>
-       <option value="gaurav.k@taboola.com">Customer Support - 3rd Level</option>
-        <option value="gaurav.k@taboola.com">CSD - AMERICA </option>
-        <option value="gaurav.k@taboola.com">CSD - EMEA </option>
-        <option value="gaurav.k@taboola.com">CSD - APAC</option>
+    <option value="bp_ti@taboola.com">TI - Best Practice Implementation</option>
+   <option value="custom_ti@taboola.com">TI - Custom Implementation</option>
+        <option value="mockups@taboola.com">TI - Pre sale design</option>
+      <option value="1st-level-support-media@taboola.com">1st-level-support-media</option>
+      <option value="1st-level-support-pub@taboola.com">1st-level-support-pub</option>
+     <option value="2nd-level-support-media@taboola.com"> 2nd-level-support-media</option>
+     <option value="2nd-level-support-pub@taboola.com">2nd-level-support-pub</option>
+    
+        <option value="csd-us@taboola.com">CSD - US </option>
+        <option value="csd-emea@taboola.com">CSD - EMEA </option>
+        <option value="csd-apac@taboola.com">CSD - APAC</option>
         
         <option value="gaurav.k@taboola.com">Product Enablement - Core Products</option>
-        <option value="gaurav.k@taboola.com">Product Enablement - Taboola Newa</option>
+        <option value="gaurav.k@taboola.com">Product Enablement - Taboola News</option>
         <option value="gaurav.k@taboola.com">Product Enablement - Mobile</option>
         <option value="gaurav.k@taboola.com">Product Enablement - Solution Architecture</option>
         
@@ -180,7 +182,7 @@ $count=1;
           <option value="gaurav.k@taboola.com">Product - Enforcement</option>
            <option value="gaurav.k@taboola.com">Product - Anti Fraud</option>
            
-           <option value="gaurav.k@taboola.com">PS OPS - Analysis</option>
+           <option value="psops-analysts@taboola.com">PS-Ops Analysts</option>
           <option value="gaurav.k@taboola.com">PS OPS - Knowledge</option>
            <option value="gaurav.k@taboola.com">PS OPS - Project Management</option>
            
