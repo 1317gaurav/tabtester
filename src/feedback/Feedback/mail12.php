@@ -18,6 +18,8 @@ $name=$_SESSION['user']['name'];
 
 $subject1=$_POST['subject'];
 $feedback=$_POST['feedback'];
+$to='gaurav.k@taboola.com';
+$cc='sudip.c@taboola.com';
 
 $subject = "You have received a suggestion from $name";
 $headers  = 'MIME-Version: 1.0' . "\r\n";
@@ -33,7 +35,7 @@ $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
     
     
 
-    $to='gaurav.k@taboola.com,benny.k@taboola.com,gs1464010@gmail.com,edu.gauravkumar@gmail.com';
+
     
     
      
