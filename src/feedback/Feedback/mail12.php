@@ -51,7 +51,7 @@ $message .= '<p style="color:#000;font-family:roboto;">&nbsp;&nbsp;&nbsp;<b>Subj
  ';
   
 
-mail("$to", $subject, $message, $headers);
+mail($to, $subject, $message, $headers);
   
 echo '<script>
     setTimeout(function() {
@@ -60,7 +60,7 @@ echo '<script>
             text: "Thanks for your suggestion !",
             type: "success"
         }, function() {
-            window.location = "user.php";
+            window.location = "feedback.php";
         });
     }, 600);
 </script>';
