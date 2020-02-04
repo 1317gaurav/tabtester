@@ -22,10 +22,10 @@ $subject1=$_POST['subject'];
 $feedback=$_POST['feedback'];
 
 $to='gaurav.k@taboola.com';
-echo $to;
+
 
 $cc='sudip.c@taboola.com';
-echo $cc;
+
 
 
 $subject = "You have received a suggestion from $name";
