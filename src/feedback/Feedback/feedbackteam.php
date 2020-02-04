@@ -52,14 +52,14 @@ $count=1;
       <div class="sidebar-wrapper">
         <ul class="nav">
           <li class="nav-item active  ">
-           <a class="nav-link" href="user.php">
+           <a class="nav-link" href="userTeam.php">
               <i class="material-icons"style="color:#009bc5;">feedback
 </i>
               <p>Compose</p>
             </a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="receive.php">
+            <a class="nav-link" href="receiveTeam.php">
               <i class="material-icons" style="color:#009bc5;">inbox</i>
               <p>Received</p>
             </a>
@@ -67,7 +67,7 @@ $count=1;
           
           
           <li class="nav-item  ">
-             <a class="nav-link" href="sent.php">
+             <a class="nav-link" href="sentTeam.php">
               <i class="material-icons"style="color:#009bc5;">send</i>
               <p>Sent</p>
             </a>
@@ -234,7 +234,7 @@ $count=1;
                 </a>
               </li>
               <li style="color:#003399;">
-                <a href="feedback.php">
+                <a href="feedbackteam.php">
                   Any suggestion !
                 </a>
               </li>
