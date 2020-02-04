@@ -1,6 +1,18 @@
 <?php
 session_start();
 // print_r($_SESSION['user']);
+require_once 'users.php';
+$users = getUsers();
+// print_r($_SESSION['user']);
+$from=$_SESSION['user']['email'];
+
+$count=1;
+                          foreach ($users as $user): 
+                          if($user['to']==$from && $user['pread']==0)
+                          {
+                          $unread=$count++;
+                          } 
+                        endforeach;;
 
 ?>
 <!DOCTYPE html>
@@ -39,7 +51,7 @@ session_start();
       </div>
       <div class="sidebar-wrapper">
         <ul class="nav">
-          <li class="nav-item   ">
+          <li class="nav-item active  ">
            <a class="nav-link" href="user.php">
               <i class="material-icons"style="color:#009bc5;">feedback
 </i>
@@ -81,22 +93,10 @@ session_start();
                 <a class="nav-link" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <!--<i class="material-icons">notifications</i>-->
                   
-                  <?php
-
-include '../connection.php';
-// print_r($_SESSION['user']);
-$from=$_SESSION['user']['email'];
-
-$sql = "SELECT count('pread') as 'unread' FROM `sent` WHERE `to`='$from' and `pread`=0";
-$result=mysqli_query($db, $sql);
-
-$data=mysqli_fetch_array($result);
-$u= $data['unread'];
-
-?>
+  
                   
                   
-  <i class="material-icons" style="color:#002b7a;font-size: 30px; margin-top:-33px;">notifications</i>&nbsp; <span style="color:#ffffff;font-weight:500" class="notification"><?php echo $u; ?></span>
+  <i class="material-icons" style="color:#002b7a;font-size: 30px; margin-top:-33px;">notifications</i>&nbsp; <span style="color:#ffffff;font-weight:500" class="notification"><?php echo $unread; ?></span>
 
                   <!--<span class="notification">5</span>-->
                   <p class="d-lg-none d-md-block">
@@ -104,20 +104,20 @@ $u= $data['unread'];
                   </p>
                 </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                    
+                    
+                   
                   <?php
                          
                          
-                         $check = "SELECT * FROM `sent` WHERE `to`='$from' and `pread`=0
-";
-$result = mysqli_query($db, $check);
-$num =mysqli_num_rows($result);
+                         foreach ($users as $user): 
+                          if($user['to']==$from && $user['pread']==0)
+                          {
+                          echo '<a class="dropdown-item" href="receive.php"><span style="color:#ff6600;">Shout From</span> &nbsp;'. $user["fname"] .'</a>';
+                          } 
+                        endforeach;
 
-while ($row = mysqli_fetch_array($result)) {
- echo '<a class="dropdown-item" href="receive.php"><span style="color:#ff6600;">Shout From</span> &nbsp;'. $row["fname"] .'</a>';
-   
-}
 
-fo
 
 ?> 
                 </div>
@@ -140,7 +140,7 @@ fo
       <!-- End Navbar -->
       <div class="content">
         <div class="container-fluid">
-          <div class="row" >
+          <div class="row">
             <div class="col-md-8">
               <div class="card" >
                 <div class="card-header card-header-primary" >
@@ -191,10 +191,12 @@ fo
                 </div>
               </div>
             </div>
+            
+            
             <div class="col-md-4">
               <div class="card card-profile">
                 <div class="card-avatar1">
-                  <a href="#pablo">
+                  <a href="">
                     <img class="img" src="<?=$_SESSION['user']['picture']; ?>" />
                   </a>
                 </div>
@@ -206,6 +208,9 @@ fo
                 </div>
               </div>
             </div>
+            
+            
+            
           </div>
         </div>
       </div>
