@@ -1,9 +1,7 @@
 <?php
-include '../connection.php';
 session_start();
 ?>
-<html>
-<head>
+
     
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -12,44 +10,16 @@ session_start();
   <title>Taboola ShoutOut</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css"></head>
-</head>
-</html>
+
 <?php
 
 $from=$_SESSION['user']['email'];
 $name=$_SESSION['user']['name'];
 
-
 $subject1=$_POST['subject'];
 $feedback=$_POST['feedback'];
-// $msg=$_POST['msg'];
-// $_SESSION["msg"] = $msg;
 
-// $date=date("Y/m/d");
-
-if ($msg == 'Collaboration') {
-    $src="http://brahmarishisaubhari.com/images/c1.jpg";
-} elseif ($msg == 'Humble') {
-    $src="http://brahmarishisaubhari.com/images/h.jpg";
-}
-elseif ($msg == 'Assertive') {
-    $src="http://brahmarishisaubhari.com/images/a.png";
-}
-elseif ($msg == 'Client Centricity') {
-   $src="http://brahmarishisaubhari.com/images/cc1.jpg";
-}
-elseif ($msg == 'Empowering') {
-    $src="http://brahmarishisaubhari.com/images/e.jpg";
-}else{
-    $src="http://brahmarishisaubhari.com/images/k.jpg";
-}
-
-
-
-
-// $msg1=$_POST['msg1'];
 $subject = "You have received a suggestion from $name";
-
 $headers  = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 
@@ -59,6 +29,9 @@ $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
     $headers .= "From: $name <$name $from  $subject>\r\n"; 
     $headers .= "CC: <$cc>\r\n";     
     $headers .="X-Mailer: smail-PHP ".phpversion()."";
+    
+    
+    
 
     $to='gaurav.k@taboola.com,benny.k@taboola.com,gs1464010@gmail.com,edu.gauravkumar@gmail.com';
     
@@ -74,9 +47,11 @@ $message .= '<p style="color:#000;font-family:roboto;">&nbsp;&nbsp;&nbsp;<b>Subj
      
    
       </p><br>
-      ';
+ 
+ ';
+  
 
-    mail("$to", $subject, $message, $headers);
+mail("$to", $subject, $message, $headers);
   
 echo '<script>
     setTimeout(function() {
