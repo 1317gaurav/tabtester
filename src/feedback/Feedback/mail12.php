@@ -1,7 +1,8 @@
 <?php
 session_start();
 ?>
-
+<html>
+<head>
     
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -10,7 +11,8 @@ session_start();
   <title>Taboola ShoutOut</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css"></head>
-
+</head>
+</html>
 <?php
 
 $from=$_SESSION['user']['email'];
@@ -18,8 +20,13 @@ $name=$_SESSION['user']['name'];
 
 $subject1=$_POST['subject'];
 $feedback=$_POST['feedback'];
+
 $to='gaurav.k@taboola.com';
+echo $to;
+
 $cc='sudip.c@taboola.com';
+echo $cc;
+
 
 $subject = "You have received a suggestion from $name";
 $headers  = 'MIME-Version: 1.0' . "\r\n";
@@ -33,14 +40,7 @@ $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
     $headers .="X-Mailer: smail-PHP ".phpversion()."";
     
     
-    
-
-
-    
-    
-     
 $message .= '<p style="color:#000;font-family:roboto;">&nbsp;&nbsp;&nbsp;<b>Subject</b>&nbsp;:&nbsp;<span style="color:#216af3;">'.$subject1.',</span><br>
-
       <p style="color:#000;">&nbsp;&nbsp;&nbsp;<b>Suggestion</b> &nbsp;:&nbsp;
       <span style="color:#8e2e0b">'.$feedback.'</span>
       </p>
@@ -51,7 +51,6 @@ $message .= '<p style="color:#000;font-family:roboto;">&nbsp;&nbsp;&nbsp;<b>Subj
       </p><br>
  
  ';
-  
 
 mail($to, $subject, $message, $headers);
   
@@ -69,6 +68,7 @@ echo '<script>
 
 
 ?>
+
 
 <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert-dev.js"></script>
