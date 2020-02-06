@@ -9,6 +9,8 @@ RUN \
     && apt-get install -y --no-install-recommends sendmail \
     && rm -rf /var/lib/apt/lists/* \
     
+    
+    RUN echo "mailhub=ildcsmtp.office.taboola.com" >> /etc/ssmtp/ssmtp.conf
     && echo "sendmail_path=sendmail -t -i" >> /usr/local/etc/php/conf.d/sendmail.ini \
     
     && echo '#!/bin/bash' >> /usr/local/bin/docker-entrypoint-wrapper.sh \
