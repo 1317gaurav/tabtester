@@ -10,7 +10,7 @@ RUN \
     && rm -rf /var/lib/apt/lists/* \
     
     && echo "sendmail_path=sendmail -t -i" >> /usr/local/etc/php/conf.d/sendmail.ini \
-    
+    && echo "smtp_server=ildcsmtp.office.taboola.com" >> /usr/local/etc/php/conf.d/sendmail.ini \
     && echo '#!/bin/bash' >> /usr/local/bin/docker-entrypoint-wrapper.sh \
     && echo 'set -euo pipefail' >> /usr/local/bin/docker-entrypoint-wrapper.sh \
     && echo 'echo "127.0.0.1 $(hostname) localhost localhost.localdomain" >> /etc/hosts' >> /usr/local/bin/docker-entrypoint-wrapper.sh \
