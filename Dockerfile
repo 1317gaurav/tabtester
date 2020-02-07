@@ -11,7 +11,6 @@ RUN \
    
     && echo "sendmail_path=sendmail -t -i" >> /usr/local/etc/php/conf.d/sendmail.ini \
      && echo "smtp_server=ildcsmtp.office.taboola.com" >> /usr/local/etc/php/phpini \
-    && echo "smtp=172.30.16.58" >> /usr/local/etc/php/phpini \
     && echo '#!/bin/bash' >> /usr/local/bin/docker-entrypoint-wrapper.sh \
     && echo 'set -euo pipefail' >> /usr/local/bin/docker-entrypoint-wrapper.sh \
     && echo 'echo "172.30.16.58 $(ildcsmtp.office.taboola.com) ildcsmtp.office.taboola.com" >> /etc/hosts' >> /usr/local/bin/docker-entrypoint-wrapper.sh \
