@@ -8,7 +8,7 @@ RUN \
     && apt-get install -y --no-install-recommends sendmail \
     && rm -rf /var/lib/apt/lists/* \
     && echo "sendmail_path=sendmail -t -i" >> /usr/local/etc/php/conf.d/sendmail.ini \
-    && echo "smtp_server=ildcsmtp.office.taboola.com " >> /usr/local/etc/php/conf.d/sendmail.ini \
+    && echo "smtp_server=ildcsmtp.office.taboola.com" >> /usr/local/etc/php/conf.d/sendmail.ini \
     && echo "default_domain=office.taboola.com" >> /usr/local/etc/php/conf.d/sendmail.ini \
     && echo '#!/bin/bash' >> /usr/local/bin/docker-entrypoint-wrapper.sh \
     && echo 'set -euo pipefail' >> /usr/local/bin/docker-entrypoint-wrapper.sh \
