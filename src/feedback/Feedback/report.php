@@ -87,6 +87,12 @@ display: block;
               <p>Sent</p>
             </a>
           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="report.php">
+              <i class="material-icons"style="color:#009bc5;">select_all</i>
+              <p>Report</p>
+            </a>
+          </li>
          
           
           
@@ -124,12 +130,7 @@ display: block;
                      <?php
                          
                          
-                         foreach ($users as $user): 
-                          if($user['to']==$from && $user['pread']==0)
-                          {
-                          echo '<a class="dropdown-item" href="receive.php"><span style="color:#ff6600;">Shout From</span> &nbsp;'. $user["fname"] .'</a>';
-                          } 
-                        endforeach;
+                         echo $users;
 
 
 
