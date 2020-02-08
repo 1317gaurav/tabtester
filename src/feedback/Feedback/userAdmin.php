@@ -72,6 +72,15 @@ $count=1;
               <p>Sent</p>
             </a>
           </li>
+          
+          <li class="nav-item">
+             <a class="nav-link" href="report.php">
+              <i class="material-icons"style="color:#009bc5;">select_all</i>
+              <p>Report</p>
+            </a>
+          </li>
+          
+          
         </ul>
       </div>
     </div>
