@@ -192,17 +192,9 @@ Quality Exhibited :
                       </thead>
                       <tbody>
                          
-                         <?php foreach ($users as $user): 
-                          ?>
-                <tr>   
-                <td><?php echo $user['to'] ?></td>
-                <td><?php echo $user['manager'] ?></td>
-                <td><?php echo $user['message'] ?></td>
-                <td><?php echo $user['description'] ?></td> 
-                <td><?php echo $user['date'] ?></td> 
-                 </tr>    
-                       
-                        <?php endforeach;; ?>
+                         <?php 
+                        echo $users;
+                        ?>
 
         
                       </tbody>
@@ -210,7 +202,7 @@ Quality Exhibited :
                     </div>
                   </div>
                 </div>
-              </div>
+              </div
             </div>        
               
               
