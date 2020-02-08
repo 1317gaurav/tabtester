@@ -1,5 +1,4 @@
 <?php
-session_start();
 require_once 'users.php';
 $users = getUsers();
 // print_r($_SESSION['user']);
