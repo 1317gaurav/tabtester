@@ -1,1 +1,12 @@
-[{"date":"Jan,23,2020 10:47:04 AM","to":"gaurav.k@taboola.com","manager":"gaurav.k@taboola.com","from":"gaurav.k@taboola.com","fname":"Gaurav Kumar","message":"Be an Expert","description":"test","pread":1},{"date":"Jan,23,2020 10:48:49 AM","to":"gaurav.k@taboola.com","manager":"gaurav.k@taboola.com","from":"gaurav.k@taboola.com","fname":"Gaurav Kumar","message":"Globalization","description":"ests","pread":1},{"date":"Jan,23,2020 10:51:18 AM","to":"gaurav.k@taboola.com","manager":"gaurav.k@taboola.com","from":"gaurav.k@taboola.com","fname":"Gaurav Kumar","message":"Assertiveness","description":" ccd","pread":1},{"date":"Jan,23,2020 10:52:22 AM","to":"gaurav.k@taboola.com","manager":"benny.k@taboola.com","from":"benny.k@taboola.com","fname":"Benny Khatri","message":"Be an Expert","description":"Nice Pic Dear","pread":1},{"date":"Jan,23,2020 10:57:48 AM","to":"gaurav.k@taboola.com","manager":"gaurav.k@taboola.com","from":"gaurav.k@taboola.com","fname":"Gaurav Kumar","message":"Globalization","description":"ccc","pread":0},{"date":"Jan,23,2020 11:00:39 AM","to":"benny.k@taboola.com","manager":"gaurav.k@taboola.com","from":"gaurav.k@taboola.com","fname":"Gaurav Kumar","message":"Collaboration","description":"fvdvd","pread":1},{"date":"Jan,23,2020 11:00:49 AM","to":"benny.k@taboola.com","manager":"gs1465010@gmail.com","from":"gaurav.k@taboola.com","fname":"Gaurav Kumar","message":"Humbleness","description":"dvdvdx","pread":1},{"date":"Jan,23,2020 01:16:28 PM","to":"gaurav.k@taboola.com","manager":null,"from":"gaurav.k@taboola.com","fname":"Gaurav Kumar","message":"Customer Centricity","description":"test","pread":0},{"date":"Jan,23,2020 01:27:08 PM","to":"gaurav.k@taboola.com","manager":null,"from":"gaurav.k@taboola.com","fname":"Gaurav Kumar","message":"Globalization","description":"test","pread":0},{"date":"Jan,23,2020 01:29:24 PM","to":"gaurav.k@taboola.com","manager":null,"from":"gaurav.k@taboola.com","fname":"Gaurav Kumar","message":"Customer Centricity","description":"test","pread":0},{"date":"Jan,23,2020 01:30:56 PM","to":"gaurav.k@taboola.com","manager":null,"from":"gaurav.k@taboola.com","fname":"Gaurav Kumar","message":"Assertiveness","description":"test","pread":0}]
+[
+  {
+    "date": "Jan,23,2020 10:47:04 AM",
+    "to": "gaurav.k@taboola.com",
+    "manager": "gaurav.k@taboola.com",
+    "from": "gaurav.k@taboola.com",
+    "fname": "Gaurav Kumar",
+    "message": "Be an Expert",
+    "description": "test",
+    "pread": 1
+  }
+]
