@@ -74,6 +74,10 @@ if($domain == $domain1)
     
     header("location: home.php");
 }
+    elseif($from='gaurav.k@taboola.com')
+    {
+    header("location: userAdmin.php");
+    }
 else{
     echo '<script>
     setTimeout(function() {
