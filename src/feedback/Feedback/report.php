@@ -166,29 +166,7 @@ display: block;
                   <div class="table-responsive">
                     <div class="table-wrapper-scroll-y my-custom-scrollbar">
                     <table class="table">
-                      <thead class=" text-primary">
-                        <!--<th style="font-size:18px; color:#000000;font-weight:400">-->
-                        <!-- Sno.-->
-                        <!--</th>-->
-                        <th style="font-size:18px; color:#000000; font-weight:400">
-                         Email Address of the Peer<br> for whom you ShoutOut :
-                        </th>
-                        <th style="font-size:18px; color:#000000;font-weight:400">
-                          
-Peer’s Manager Email Address :
-                        </th>
-                        <th style="font-size:18px; color:#000000;font-weight:400">
-                         
-Quality Exhibited :
-                        </th>
-                        <th style="font-size:18px; color:#000000;font-weight:400">
-                       Please describe how your<br> Peer exhibited this quality :
-                        </th>
-                        
-                         <th style="font-size:18px; color:#000000;font-weight:400">
-                  Date
-                        </th>
-                      </thead>
+                    
                       <tbody>
                          
                          <?php 
