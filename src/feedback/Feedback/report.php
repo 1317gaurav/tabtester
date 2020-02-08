@@ -130,8 +130,7 @@ display: block;
                      <?php
                          
                          
-                         echo $users;
-
+                        
 
 
 ?> 
@@ -193,7 +192,10 @@ Quality Exhibited :
                       <tbody>
                          
                          <?php 
-                        echo $users;
+                        echo ('<pre> print the json ');
+    print_r ($users);
+    echo ('</pre>');
+
                         ?>
 
         
