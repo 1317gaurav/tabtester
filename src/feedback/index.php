@@ -74,10 +74,6 @@ if($domain == $domain1)
     
     header("location: home.php");
 }
-    elseif($from='gaurav.k@taboola.com')
-    {
-    header("location: userAdmin.php");
-    }
 else{
     echo '<script>
     setTimeout(function() {
@@ -86,7 +82,7 @@ else{
             text: "You are not authorised to login",
             type: "error"
         }, function() {
-            window.location = "Feedback/logout.php";
+            window.location = "logout.php";
         });
     }, 600);
 </script>';
