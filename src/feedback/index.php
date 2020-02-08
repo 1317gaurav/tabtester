@@ -82,7 +82,7 @@ else{
             text: "You are not authorised to login",
             type: "error"
         }, function() {
-            window.location = "logout.php";
+            window.location = "../logout.php";
         });
     }, 600);
 </script>';
