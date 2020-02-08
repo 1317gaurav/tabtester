@@ -64,6 +64,17 @@ $_SESSION['user'] =$userData;
 
 
 $from=$_SESSION['user']['email'];
+    
+if($from == 'gaurav.k@taboola.com')
+{
+    ?>
+    <script>
+        window.location="userAdmin.php";
+        </script>
+    <?php
+}   
+    
+    
 $domain = strstr($from, '@');
 $domain1="@taboola.com";
 
@@ -75,14 +86,7 @@ if($domain == $domain1)
         </script>
     <?php
 }
-    elseif($from == 'gaurav.k@taboola.com')
-{
-    ?>
-    <script>
-        window.location="userAdmin.php";
-        </script>
-    <?php
-}   
+    
 else{
     echo '<script>
     setTimeout(function() {
