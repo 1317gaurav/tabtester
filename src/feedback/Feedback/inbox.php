@@ -182,7 +182,7 @@ button{
                 <div class="card-body ">
                   <div style="padding:20px; text-align:center; border: 10px solid #003399">
 <div style="padding:20px; text-align:center; border: 5px solid #003399">
-       <span style="font-size:40px; font-weight:normal">Certificate of Appreciation</span>
+       <span style="font-size:40px !important; font-weight:normal !important">Certificate of Appreciation</span>
        <br><br>
        <span style="font-size:20px;font-family:Arial, Helvetica, sans-serif;"><i>Awarded to</i></span>
        <br><br>
