@@ -31,13 +31,14 @@ $cc='sudip.c@taboola.com';
 $subject = "You have received a suggestion from $name";
 $headers  = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-
+    
     $headers .= "X-Priority: 3\r\n";
-    $headers .= "Reply-To: The Sender <$name $from>\r\n"; 
+    $headers .= "Reply-To: The Sender <$from>\r\n"; 
     $headers .= "Return-Path: The Sender <$name $from >\r\n";
-    $headers .= "From: $name <$name $from  $subject>\r\n"; 
+    $headers .= "From: $name <$from>\r\n"; 
     $headers .= "CC: <$cc>\r\n";     
     $headers .="X-Mailer: smail-PHP ".phpversion()."";
+    
     
     
 $message .= '<p style="color:#000;font-family:roboto;">&nbsp;&nbsp;&nbsp;<b>Subject</b>&nbsp;:&nbsp;<span style="color:#216af3;">'.$subject1.',</span><br>
