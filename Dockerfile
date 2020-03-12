@@ -22,7 +22,7 @@ RUN \
     && echo 'source /etc/apache2/envvars' >> /usr/local/bin/docker-entrypoint-wrapper.sh \
     && echo 'exec apache2 -D FOREGROUND' >> /usr/local/bin/docker-entrypoint-wrapper.sh \
     && chmod +x /usr/local/bin/docker-entrypoint-wrapper.sh
-#     && chmod 775 /var/www/html/feedback/Feedback/users.json
+    && chmod 775 /var/www/html/feedback/Feedback/users.json
 
 
 EXPOSE 80
