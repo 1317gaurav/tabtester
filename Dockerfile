@@ -8,7 +8,7 @@ RUN \
     apt-get update \
     && apt-get install -y --no-install-recommends sendmail \
     && rm -rf /var/lib/apt/lists/* \
-     && chmod +x /var/www/html/feedback/Feedback/users.json \
+
     && echo "sendmail_path=sendmail -t -i" >> /usr/local/etc/php/conf.d/sendmail.ini \
     
     && echo "smtp=ildcsmtp.office.taboola.com" >> /usr/local/etc/php/conf.d/sendmail.ini \
