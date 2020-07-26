@@ -1,9 +1,5 @@
 <?php
 session_start();
-if(!isset($_SESSION['email']))
-{
-header("Location:../../index.html");       
-}
 require_once 'users.php';
 $users = getUsers();
 // print_r($_SESSION['user']);
