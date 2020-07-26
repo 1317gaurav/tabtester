@@ -2,7 +2,7 @@
 session_start();
 if(!isset($_SESSION['email']))
 {
-header("Location:../index.php");       
+header("Location:../../index.html");       
 }
 // print_r($_SESSION['user']);
 require_once 'users.php';
