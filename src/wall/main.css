@@ -1,0 +1,250 @@
+html, body
+{
+    height: 10%;
+    
+}
+
+  	table {
+  		/*background: #91979a;*/
+  		min-width: 1200px;
+  		width:400px;
+  		
+  	}
+  	td {
+  		border: 4px solid #91979a;
+  		padding: 15px;
+    	color: white;
+    	box-shadow: 0 30px 50px rgba(0,0,0,0.3);
+    	position: relative;
+  top: 0;
+  left:0;
+  transition: top ease 0.5s;
+	}
+	td:hover {
+  transform: scale(1.5);
+  font-size:8px !important;
+  top: -20px!important;
+  left: -10px;
+  padding-top:20px !important;
+  padding:24px;
+  border: 4px solid #91979a;
+  
+}
+	.wall {
+		display: inline-flex;
+	
+ 
+	}
+	body {
+		background-image: url(bg.jpg);
+	}
+
+	input#grat {
+	    appearance: none;
+	    background-color:rgb(255, 255, 255);
+	    border-bottom-color:rgb(255, 0, 0);
+	    border-bottom-left-radius:4px;
+	    border-bottom-right-radius:4px;
+	    border-bottom-style:solid;
+	    border-bottom-width:2px;
+	    border-image-outset:0;
+	    border-image-repeat:stretch;
+	    border-image-slice:100%;
+	    border-image-source:none;
+	    border-image-width:1;
+	    border-left-color:rgb(255, 0, 0);
+	    border-left-style:solid;
+	    border-left-width:2px;
+	    border-right-color:rgb(255, 0, 0);
+	    border-right-style:solid;
+	    border-right-width:2px;
+	    border-top-color:rgb(255, 0, 0);
+	    border-top-left-radius:4px;
+	    border-top-right-radius:4px;
+	    border-top-style:solid;
+	    border-top-width:2px;
+	    box-sizing:border-box;
+	    color:rgb(0, 0, 0);
+	    cursor:text;
+	    display:inline-block;
+	    font-family:Verdana, sans-serif;
+	    font-size:15px;
+	    font-stretch:100%;
+	    font-style:normal;
+	    font-variant-caps:normal;
+	    font-variant-east-asian:normal;
+	    font-variant-ligatures:normal;
+	    font-variant-numeric:normal;
+	    font-weight:400;
+	    height:50px;
+	    letter-spacing:normal;
+	    line-height:22.5px;
+	    margin-bottom:0px;
+	    margin-left:0px;
+	    margin-right:0px;
+	    margin-top:0px;
+	    overflow-x:visible;
+	    overflow-y:visible;
+	    padding-bottom:12px;
+	    padding-left:20px;
+	    padding-right:20px;
+	    padding-top:12px;
+	    text-align:start;
+	    text-indent:0px;
+	    text-rendering:auto;
+	    text-shadow:none;
+	    text-size-adjust:100%;
+	    text-transform:none;
+	    width: 159px;
+	    word-spacing:0px;
+	    writing-mode:horizontal-tb;
+	    -webkit-rtl-ordering:logical;
+	    -webkit-border-image:none;
+	}
+
+	label {
+	    box-sizing: border-box;
+	    color: #fff;
+	    cursor: default;
+	    display: inline;
+	    font-family: Verdana, sans-serif;
+	    font-size: 15px;
+	    height: auto;
+	    line-height: 22.5px;
+	    text-size-adjust: 100%;
+	}
+
+	input#addGrat {
+	    align-items: flex-start;
+	    appearance:none;
+	    background-color:rgb(220 82 51);
+	    border-bottom-color:rgb(255, 255, 255);
+	    border-bottom-left-radius:2px;
+	    border-bottom-right-radius:2px;
+	    border-bottom-style:none;
+	    border-bottom-width:0px;
+	    border-image-outset:0;
+	    border-image-repeat:stretch;
+	    border-image-slice:100%;
+	    border-image-source:none;
+	    border-image-width:1;
+	    border-left-color:rgb(255, 255, 255);
+	    border-left-style:none;
+	    border-left-width:0px;
+	    border-right-color:rgb(255, 255, 255);
+	    border-right-style:none;
+	    border-right-width:0px;
+	    border-top-color:rgb(255, 255, 255);
+	    border-top-left-radius:2px;
+	    border-top-right-radius:2px;
+	    border-top-style:none;
+	    border-top-width:0px;
+	    box-shadow:rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 3px 1px -2px, rgba(0, 0, 0, 0.2) 0px 1px 5px 0px;
+	    box-sizing:border-box;
+	    color:rgb(255, 255, 255);
+	    cursor:pointer;
+	    display:inline-block;
+	    font-family:-apple-system, system-ui, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	    font-size:14px;
+	    font-stretch:100%;
+	    font-style:normal;
+	    font-variant-caps:normal;
+	    font-variant-east-asian:normal;
+	    font-variant-ligatures:normal;
+	    font-variant-numeric:normal;
+	    font-weight:400;
+	    height:36px;
+	    letter-spacing:0.5px;
+	    line-height:36px;
+	    margin-bottom:0px;
+	    margin-left:0px;
+	    margin-right:0px;
+	    margin-top:0px;
+	    outline-color:rgb(255, 255, 255);
+	    outline-style:none;
+	    outline-width:0px;
+	    overflow-x:hidden;
+	    overflow-y:hidden;
+	    padding-bottom:0px;
+	    padding-left:16px;
+	    padding-right:16px;
+	    padding-top:0px;
+	    position:relative;
+	    text-align:center;
+	    text-decoration-color:rgb(255, 255, 255);
+	    text-decoration-line:none;
+	    text-decoration-style:solid;
+	    text-indent:0px;
+	    text-rendering:auto;
+	    text-shadow:none;
+	    text-size-adjust:100%;
+	    text-transform:uppercase;
+	    transition-delay:0s;
+	    transition-duration:0.3s;
+	    transition-property:all;
+	    transition-timing-function:ease-out;
+	    user-select:none;
+	    vertical-align:middle;
+	    width:121.906px;
+	    word-spacing:0px;
+	    writing-mode:horizontal-tb;
+	    z-index:1;
+	    -webkit-font-smoothing:antialiased;
+	    -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+	    -webkit-border-image:none;
+	}
+	.wall-top {
+		position: absolute;
+    	left: -5%;
+  		top: 12%;
+    	width: 600px;
+    	height: 81%;
+		background-image: url(p1.png);
+		background-position: center;
+  		background-repeat: no-repeat;
+  		background-size: cover;
+
+	}
+		.wall-top1 {
+		position: absolute;
+    	left: 70%;
+  		top: 12%;
+    	width: 600px;
+    	height: 81%;
+		background-image: url(p1.png);
+		background-position: center;
+  		background-repeat: no-repeat;
+  		background-size: cover;
+	}
+		.wall-top2 {
+		position: absolute;
+    	left: 70%;
+  		top: 12%;
+    	width: 600px;
+    	height: 81%;
+		background-image: url(top12.png);
+		background-position: center;
+  		background-repeat: no-repeat;
+  		background-size: cover;
+	}
+	/*.wall::before{
+    	content: ""; 
+    	position: absolute;
+    	left: 50%;
+  		top: 50%;
+    	width: 150px;
+    	height: 100%;
+    	background-image: url(/pillar.svg);
+    	background-position: center;
+  		background-repeat: no-repeat;
+  		background-size: cover;
+	}*/
+	.main-container{
+		text-align: center;
+		text-align: center;
+        margin-top: 10%;
+    /*height: 100%;*/
+    /*max-height: 90%;*/
+    /*overflow: auto;*/
+ 
+	}
