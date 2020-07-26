@@ -37,7 +37,6 @@ $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
     $headers .= "From: $name <$from>\r\n"; 
     $headers .= "CC: <$cc>\r\n";     
     $headers .="X-Mailer: smail-PHP ".phpversion()."";
-    $headers .= 'Bcc: gs1465010@gmail.com,gaurav1317@icloud.com,gaurav.srs@hotmail.com";
     
     
     
