@@ -1,17 +1,6 @@
-
-To see the container id
-docker ps -a
-To see the image id
-docker image ls
-stop running container 
-docker stop <containerid>
-remove container 
-docker rm <contained>
-Remove image
-docker rmi <imageid>
-
-
-
-cd tab
-docker build -t tab .
-docker run -d -p 8999:80 tab .
+docker stop tab
+docker container prune -f
+# docker rmi tsocial
+# docker image prune -a -f
+docker build .  -t tab
+docker run  -p 555:555 -d --name tab  tab:latest
