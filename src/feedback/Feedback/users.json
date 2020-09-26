@@ -8,5 +8,145 @@
     "message": "Be an Expert",
     "description": "test",
     "pread": 1
+  },
+  {
+    "date": "Aug,06,2020 11:52:31 AM",
+    "to": "katia.g@taboola.com",
+    "manager": "amit.w@taboola.com",
+    "from": "digvijay.s@taboola.com",
+    "fname": "Digvijay Singh",
+    "message": "Collaboration",
+    "description": "Thanks Katia for being extremely Collaborative with me and Territory Implementation. You have always been quick in understanding the requirement and provide us with speedy and brilliant solutions. I would like to shout out for your superb collaboration with us and looking forward to a more wonderful journey with you and IS going ahead.",
+    "pread": 0
+  },
+  {
+    "date": "Aug,06,2020 04:18:34 PM",
+    "to": "benny.k@taboola.com",
+    "manager": "jay.s@taboola.com",
+    "from": "digvijay.s@taboola.com",
+    "fname": "Digvijay Singh",
+    "message": "Empowering",
+    "description": "Benny has been exceptional in transforming his ideas into real world implementations. His contribution towards creation of the Template extension has got some really good feedbacks and has been greatly appreciated. Not limited to this, he has been showing full zeal in contributing towards other initiatives as well. Would like to appreciate Benny towards his quality of empowering the Team with the much need tools to focus on efficiency and quality.",
+    "pread": 0
+  },
+  {
+    "date": "Aug,14,2020 09:35:50 AM",
+    "to": "roshan.c@taboola.com",
+    "manager": "sudip.c@taboola.com",
+    "from": "anurag.k@taboola.com",
+    "fname": "Anurag Kumar",
+    "message": "Empowering",
+    "description": "I would like to appreciate the way Roshan properly documents all the cases that are escalated to Custom Team, with all the steps and checks that the custom team follows. It has greatly helped us in decreasing the escalations to custom. Thanks for imparting and enhancing our knowledge. ",
+    "pread": 1
+  },
+  {
+    "date": "Aug,14,2020 04:21:14 PM",
+    "to": "bp_ti@taboola.com",
+    "manager": null,
+    "from": "diwakar.m@taboola.com",
+    "fname": "Diwakar Mishra",
+    "message": "Collaboration",
+    "description": "Just want to give a shout out to Benny , Vivek and Arun for being always so collaborative and making this work from home fun .\r\n",
+    "pread": 0
+  },
+  {
+    "date": "Aug,17,2020 09:09:27 AM",
+    "to": "gaurav.k@taboola.com",
+    "manager": "gs1465010@gmail.com",
+    "from": "gaurav.k@taboola.com",
+    "fname": "Gaurav Kumar",
+    "message": "Be an Expert",
+    "description": "testing",
+    "pread": 1
+  },
+  {
+    "date": "Aug,20,2020 06:22:38 PM",
+    "to": "rohit.s@taboola.com",
+    "manager": "jay.s@taboola.com",
+    "from": "sudip.c@taboola.com",
+    "fname": "Sudip Chanda",
+    "message": "Empowering",
+    "description": "Since the day Rohit got promoted, I can see him working very aggressively towards achieving his goals and always striving to be better at what he is doing. I want to appreciate Rohit for his positive attitude towards learning new things. ",
+    "pread": 1
+  },
+  {
+    "date": "Aug,20,2020 06:34:32 PM",
+    "to": "roshan.c@taboola.com",
+    "manager": "jay.s@taboola.com",
+    "from": "sudip.c@taboola.com",
+    "fname": "Sudip Chanda",
+    "message": "Be an Expert",
+    "description": "Roshan is very versatile with his deliverables. His discipline and commitment towards his work is unquestionable. \r\nHe is a great team player and has a very positive mindset. He always ensures his deliveries within the given timelines and with complete dedication. \r\nI want to appreciate Roshan for being such a crucial team player and being able to exhibit these qualities consistently. ",
+    "pread": 0
+  },
+  {
+    "date": "Aug,20,2020 06:41:58 PM",
+    "to": "gaurav.k@taboola.com",
+    "manager": "jay.s@taboola.com",
+    "from": "sudip.c@taboola.com",
+    "fname": "Sudip Chanda",
+    "message": "Be an Expert",
+    "description": "Guarav is the wild card of our team. He prefers to be quiet and deliver extra ordinary stuffs. His capability to deliver under pressure situations and short deadlines makes him special.\r\n",
+    "pread": 1
+  },
+  {
+    "date": "Aug,20,2020 08:16:55 PM",
+    "to": "chirag.v@taboola.com",
+    "manager": "gangesh.k@taboola.com",
+    "from": "rohit.s@taboola.com",
+    "fname": "Rohit Sharma",
+    "message": "Collaboration",
+    "description": "Since the day Chirag has joined Spirit Committee, he has been a great support pillar to the team. His commitment and efforts are worth appreciating. I want to thank him for always being on top for any kind of help and proving the real meaning of being a Team Player.",
+    "pread": 1
+  },
+  {
+    "date": "Aug,25,2020 09:28:38 AM",
+    "to": "rohit.s@taboola.com",
+    "manager": "sudip.c@taboola.com",
+    "from": "rohit.s@taboola.com",
+    "fname": "Rohit Sharma",
+    "message": "Be an Expert",
+    "description": "Hi,\r\n\r\nI want to appreciate your efforts for being an expert.\r\n\r\nThis is test shoutout.\r\n",
+    "pread": 0
+  },
+  {
+    "date": "Aug,25,2020 01:46:45 PM",
+    "to": "arthur.k@taboola.com",
+    "manager": "marc.t@taboola.com",
+    "from": "jay.s@taboola.com",
+    "fname": "Jay Sharma",
+    "message": "Collaboration",
+    "description": "Collaborative thinking is probably one of the most important competency one has to have and it is even more important that leaders are able to develop the similar mindset in their team members. I vividly remember my visit to London office last year and the challenges people in different business teams was facing while working the TI team. We have walked a long way together solving each of those challenges and taking our relationship to new heights every day. It was possible because of Arthur and his team's positive outlook for TI and Working with Arthur and his team is always a pleasure. Thank you Arthur!",
+    "pread": 0
+  },
+  {
+    "date": "Aug,28,2020 12:43:08 PM",
+    "to": "anant.m@taboola.com",
+    "manager": "anant.m@taboola.com",
+    "from": "anant.m@taboola.com",
+    "fname": "Anant Maheshwari",
+    "message": "Empowering",
+    "description": "Test",
+    "pread": 0
+  },
+  {
+    "date": "Sep,26,2020 04:24:01 AM",
+    "to": "gaurav.k@taboola.com",
+    "manager": "gaurav.k@taboola.com",
+    "from": "gaurav.k@taboola.com",
+    "fname": "Gaurav Kumar",
+    "message": "Customer Centricity",
+    "description": "testingg",
+    "pread": 1
+  },
+  {
+    "date": "Sep,26,2020 04:24:36 AM",
+    "to": "gaurav.k@taboola.com",
+    "manager": "gaurav.k@taboola.com",
+    "from": "gaurav.k@taboola.com",
+    "fname": "Gaurav Kumar",
+    "message": "Customer Centricity",
+    "description": "testing122344",
+    "pread": 0
   }
 ]
