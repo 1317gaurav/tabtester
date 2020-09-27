@@ -193,7 +193,7 @@ $count=1;
 <fieldset>
  
   <select class="form-control dropdown" id="occupation" name="msg">
-    <option value="" selected="selected" disabled="disabled">-- select one --</option>
+    <option value="" selected="selected" disabled="disabled">-- PS --</option>
     
     <option value="Customer Centricity">Customer Centricity</option>
    <option value="Be an Expert">Be an Expert</option>
@@ -203,6 +203,19 @@ $count=1;
        <option value="Assertiveness">Assertiveness</option>
         <option value="Empowering">Empowering </option>
     
+    <option value="" selected="selected" disabled="disabled">-- EMEA BUSINESS --</option>
+    <option value="Improving quality (anything from processes to life at Taboola)">Improving quality (anything from processes to life at Taboola)</option>
+    <option value="Going above and beyond to support colleagues
+">Going above and beyond to support colleagues
+ </option>
+    <option value="Demonstrating exemplary collaboration across geos/teams/functions">Demonstrating exemplary collaboration across geos/teams/functions </option>
+    <option value="Getting things done at super-speed!">Getting things done at super-speed! </option>
+    <option value="Overcoming obstacles">Overcoming obstacles </option>
+     <option value="Coming up with innovative/creative solutions">Coming up with innovative/creative solutions </option>
+    <option value="Saving time or money">Saving time or money </option>
+    <option value="Taking on and delivering on projects outside day-to-day responsibilities">Taking on and delivering on projects outside day-to-day responsibilities </option>
+    <option value="Contributing to the maintenance and definition of Taboola's culture">Contributing to the maintenance and definition of Taboola's culture </option>
+    <option value="Generally being a great person to work with">Generally being a great person to work with </option>
      
    
 
