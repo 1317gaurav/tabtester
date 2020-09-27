@@ -3,6 +3,33 @@
 $url = 'data.json'; // path to your JSON file
 $data = file_get_contents($url); // put the contents of the file into a variable
 $gratitudes = json_decode($data); // decode the JSON feed
+$to = $_POST['search'];
+$msg1 = $_POST['textdata'];
+ $message = '
+ <div style="width:500px; height:250px; padding:20px;padding-bottom: 0px; text-align:center; border: 4px solid #91979a; background-color:#de5233;overflow-y:auto;">
+       <span style="font-size:35px; font-weight:600; color:#4e4646; font-style:italic;font-family: fangsong;">A brick of gratitude</span>
+      
+       <br><br>
+       <span style="font-size:18px;color:#f5f5f5;font-family: cursive;"><b>'.$msg1.'</b></span><br/><br/>
+</i></span> <br/><br/>
+       <span style="font-size:18px; color:#4e4646"><i>&nbsp;'.date("d/m/y").'</i></span><br>
+
+</div>
+    
+ 
+ ';
+// echo $name1;
+// echo $name2;
+$subject = "A Wall of Gratitude ";
+$headers  = 'MIME-Version: 1.0' . "\r\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+    $headers .= "X-Priority: 3\r\n";
+    $headers .="X-Mailer: smail-PHP ".phpversion()."";
+    if(empty($msg1)){
+}else{
+mail("gaurav.k@taboola.com",$subject,$message,$headers);
+}
+
 
 ?>
 
@@ -18,9 +45,21 @@ $gratitudes = json_decode($data); // decode the JSON feed
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
   />
- <style>
-     
- </style>
+  <style>
+  #result {
+   position: absolute;
+   width: 100%;
+   max-width: 870px;
+   cursor: pointer;
+   overflow-y: auto;
+   max-height: 400px;
+   box-sizing: border-box;
+   z-index: 1001;
+  }
+  .link-class:hover{
+   background-color:#f1f1f1;
+  }
+  </style>
 </head>
 
     	<body style="background-image: url(bg-01.jpg);">
@@ -109,49 +148,128 @@ for ($totalRows = count($rowDataArray); $totalRows > 0; $totalRows--)
 					
 					
 						
-                        <form method="post" style="margin: -35px 0 2em 0;">
+                        <form method="post" style="margin: -64px 0 2em 0;">
   	<br>
   	<br>
   	<br>
                             <h3 style="color: #fff;font-family: 'Pattaya', sans-serif;">Want to add your gratitude to the wall?</h3>
                             <div class="form-group">
-    <textarea class="form-control" id="grat" name="textdata" style="background-color:#df5332;color: #fefa21;"  rows="2" required></textarea><br>
+				    <input type="text" name="search" id="search1" placeholder="Tag here..."  class="form-control" style="background-color:#df5332;color: #fefa21;border-radius:0px; border:1px solid white" />  
+                              <datalist id='datalist'></datalist>
+                              <ul class="list-group" id="result"></ul>
+    <textarea class="form-control" id="grat" name="textdata" style="background-color:#df5332;color: #fefa21;" border: tomato;
+    border-radius: 0px;"  rows="3" placeholder="Share your gratitude here...." required></textarea><br>
   </div>
   <!--<button type="submit" class="btn btn-primary">Submit</button>-->
-    <input type="submit"  name="submit" value="Add" style="width: 125px;
+   <input type="submit"  name="submit" value="Add"  style="width: 125px;
 width: 125px;
     padding-left: 41px;
     background-color: #e05432;
     color: #ffffff;
     font-family: 'Pattaya', sans-serif;
     font-size: 24px;
-    margin-top: -12px;
+    margin-top: -87px;
     height: 59px;">
   </form>
 
 					</div>
 			
 			</footer>
-
+			<style>
+			    .ui-helper-hidden-accessible{
+			        display:none;
+			    }
+			    #result ul {
+    color: white;
+    list-style: none;
+    z-index: 99999;
+    text-align: left;
+    background: #004c79;
+    border: 1px solid white;
+    font-weight:bold;
+    max-width: 372px;
+    padding:5px;
+}
+#result ul li:hover{
+    background: black;
+}
+			</style>
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			
+						 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+  crossorigin="anonymous"></script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+     console.log('test');
+  $.ajax({
+    url:'https://gaia.taboolasyndication.com/v1/users?active_status=true',
+    type:"get",
+    dataType: 'json',
+    async: true,
+    cache: true,
+    success: function(data){
+       // console.log(data.map(e => e.email));
+        $( "#search1" ).autocomplete({
+        source: data.map(e => e.email),
+        appendTo: "#result"
+        });
+    },
+});
+});
+</script>
 <!--Start of Tawk.to Script-->
 
-
+<script>
+$(document).ready(function(){
+ $.ajaxSetup({ cache: false });
+ $('#search').keyup(function(){
+  $('#result').html('');
+  $('#state').val('');
+  var searchField = $('#search').val();
+  var expression = new RegExp(searchField, "i");
+  $.getJSON('data.json', function(data) {
+   $.each(data, function(key, value){
+    if (value.name.search(expression) != -1 || value.location.search(expression) != -1)
+    {
+     $('#result').append('<li class="list-group-item link-class"><img src="'+value.image+'" height="40" width="40" class="img-thumbnail" /> '+value.name+' | <span class="text-muted">'+value.location+'</span></li>');
+    }
+   });   
+  });
+ });
+ 
+ $('#result').on('click', 'li', function() {
+  var click_text = $(this).text().split('|');
+  $('#search').val($.trim(click_text[0]));
+  $("#result").html('');
+ });
+});
+</script>
 <!--End of Tawk.to Script-->
 </body>
 
 
 <?php
 	if(isset($_POST['textdata'])) {
-		$newGratitude = $_POST['textdata'];
+	    
+	    $to = $_POST['search'];
+	    $newGratitude = $_POST['textdata'];
+	    
+	    $toUser = strstr($to, '.', true);
+        $toUserName=ucfirst($toUser);  
+        
+        $gratitude = $toUserName.','.$newGratitude;
+	
 		$gratitude = array(
 			"user" => "default", 
-			"gratitude" => $newGratitude
+			"gratitude" => $gratitude
 		);
 
 		// Adding new gratitude to existing list
