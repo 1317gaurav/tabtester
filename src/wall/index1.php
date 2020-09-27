@@ -101,7 +101,7 @@ $totalRows = count($rowDataArray);
     margin: 0 0 .25em 0;
     margin-top:60px;
     
-    color: #fff;" class="animate__animated animate__backInDown">The Great Wall Of Gratitude</h1></center>
+    color: #fff;" class="animate__animated animate__backInDown">The Great Wall Of Gratitude</h1> V2</center>
 <div style="overflow-y: scroll; height:600px;">
 <?php
 for ($totalRows = count($rowDataArray); $totalRows > 0; $totalRows--)
