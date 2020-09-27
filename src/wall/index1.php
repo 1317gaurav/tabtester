@@ -36,7 +36,7 @@ mail($to,$subject,$message,$headers);
 <!DOCTYPE html>
 <html>
 <head>
-  	<title>The Great Wall Of Gratitude</title>
+  	<title>The Great Wall Of Gratitude 1.0.1</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -101,7 +101,7 @@ $totalRows = count($rowDataArray);
     margin: 0 0 .25em 0;
     margin-top:60px;
     
-    color: #fff;" class="animate__animated animate__backInDown">The Great Wall Of Gratitude</h1> V2</center>
+    color: #fff;" class="animate__animated animate__backInDown">The Great Wall Of Gratitude</h1>1.0.1</center>
 <div style="overflow-y: scroll; height:600px;">
 <?php
 for ($totalRows = count($rowDataArray); $totalRows > 0; $totalRows--)
