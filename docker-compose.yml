@@ -1,0 +1,31 @@
+version: '3'
+
+services:
+  nodejs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: tsocial
+    container_name: tsocial
+    restart: unless-stopped
+    dns: 
+      - 172.16.19.4
+      - 10.105.19.5
+    dns_search:
+      - taboolasyndication.com
+    ports:
+      - "8080:8080"
+    links:
+      - mongo
+    networks:
+      - app-network
+    command: npm start
+  mongo:
+    image: mongo
+    ports:
+      - "27017:27017"
+    networks:
+      - app-network
+networks:
+  app-network:
+    driver: bridge
