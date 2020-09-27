@@ -1,12 +1,12 @@
 version: '3'
 
 services:
-  nodejs:
+  php:
     build:
       context: .
       dockerfile: Dockerfile
-    image: tsocial
-    container_name: tsocial
+    image: tab
+    container_name: tab
     restart: unless-stopped
     dns: 
       - 172.16.19.4
@@ -14,16 +14,7 @@ services:
     dns_search:
       - taboolasyndication.com
     ports:
-      - "8080:8080"
-    links:
-      - mongo
-    networks:
-      - app-network
-    command: npm start
-  mongo:
-    image: mongo
-    ports:
-      - "27017:27017"
+      - "555:80"
     networks:
       - app-network
 networks:
