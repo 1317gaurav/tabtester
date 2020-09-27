@@ -1,3 +1,11 @@
+<?php
+
+$url = 'data.json'; // path to your JSON file
+$data = file_get_contents($url); // put the contents of the file into a variable
+$gratitudes = json_decode($data); // decode the JSON feed
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,27 +18,151 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
   />
-
+ <style>
+     
+ </style>
 </head>
 
     	<body style="background-image: url(bg-01.jpg);">
 
 	
-			<header id="header">
-				<div class="inner" style="background-color: #004c79">
-					<div class="content">
-						<h1>The Great Wall Of Gratitude</h1>
-						<h2>Welcomes You !</h2>
-                        
-						<a href="index1.php" class="button big alt"><span>Let's Go</span></a>
-					</div>
-					<a href="index1.php" class="button hidden"><span>Let's Go</span></a>
-				</div>
-			</header>
-			</body>
-			</html>
-	
+		
 						
 					
     
- 
+    
+    
+<!-- Add styling to the table -->
+<?php
+
+
+$rowDataArray = [];
+$currentRowCount = 0;
+$currentGratitudeCount = 0;
+$row = '';
+$brickColor = '#de5233';
+foreach ($gratitudes as $gratitudeData) {
+	if (($currentGratitudeCount%8) == 0) {
+		array_push($rowDataArray, $row);
+		// $rowDataArray[$currentRowCount] = $row;
+		$row = '';
+		// $currentRowCount++;
+	}
+	$row = $row . "<td style='background: ". $brickColor ."; height:107px; padding:15px; overflow:auto'>" . wordwrap($gratitudeData->gratitude,20,"<br>\n") . "</td>";
+
+	$currentGratitudeCount++;
+}
+array_push($rowDataArray, $row);
+$totalRows = count($rowDataArray);
+?>
+
+<div class="main-container animate__animated animate__fadeInUp animate__delay-3s" style="height:100%; margin-top:50px;">
+<center><h1 style="font-size: 4em;
+    font-family: 'Pattaya', sans-serif;
+    margin: 0 0 .25em 0;
+    margin-top:60px;
+    
+    color: #fff;" class="animate__animated animate__backInDown">The Great Wall Of Gratitude</h1></center>
+<div style="overflow-y: scroll; height:600px;">
+<?php
+for ($totalRows = count($rowDataArray); $totalRows > 0; $totalRows--)
+{
+	echo "<div class='wall' style='max-width: 1300px; margin:-25px;
+'>";
+	if ($totalRows%2 == 0) {
+		echo "</table>";
+		echo "<table style='padding-left: 50px;table-layout: auto;
+  width: 100%; '>";
+		echo "<tr class='wall animate__animated animate__fadeInUp'>";
+		echo $rowDataArray[$totalRows];
+
+		echo "</tr>";
+		echo "</table>";
+	} else {
+		echo "</table>";
+		echo "<table style='padding-right: 50px;table-layout: auto;
+  width: 100%; '>";
+		echo "<tr class='wall animate__animated animate__fadeInUp animate__delay-3s'>";
+		echo $rowDataArray[$totalRows];
+
+		echo "</tr>";
+		echo "</table>";
+	}
+	echo "</div>";
+}
+
+?>
+  
+</div>
+</div>
+			<footer id="footer" >
+				<a href="#" class="info" style="border-radius: 113% 113% 0 0;
+    background: #004c79;
+    height: 6em;
+    width: 5em;
+    margin-bottom: -1.75em;"><img class='wall animate__animated animate__zoomIn animate__delay-2s' src="a.gif" height="80px;"></a>
+				<div class="inner" style="background-color: #004c79">
+					<div class="content">
+						<h3 style="font-family: 'Pattaya', sans-serif;">The Great Wall Of Gratitude</h3>
+						<p>“A unique aspect of The Great Wall of Gratitude is that it allows you to see what other people are grateful for as well as share your own “good things”. Sometimes it’s hard to remember all that we can be grateful for, and reading about what others are grateful for can be a good reminder of the positive things in life that we can be thankful for as well.”</p>
+					</div>
+					
+					
+						
+                        <form method="post" style="margin: -35px 0 2em 0;">
+  	<br>
+  	<br>
+  	<br>
+                            <h3 style="color: #fff;font-family: 'Pattaya', sans-serif;">Want to add your gratitude to the wall?</h3>
+                            <div class="form-group">
+    <textarea class="form-control" id="grat" name="textdata" style="background-color:#df5332;color: #fefa21;"  rows="2" required></textarea><br>
+  </div>
+  <!--<button type="submit" class="btn btn-primary">Submit</button>-->
+    <input type="submit"  name="submit" value="Add" style="width: 125px;
+width: 125px;
+    padding-left: 41px;
+    background-color: #e05432;
+    color: #ffffff;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 24px;
+    margin-top: -12px;
+    height: 59px;">
+  </form>
+
+					</div>
+			
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			
+<!--Start of Tawk.to Script-->
+
+
+<!--End of Tawk.to Script-->
+</body>
+
+
+<?php
+	if(isset($_POST['textdata'])) {
+		$newGratitude = $_POST['textdata'];
+		$gratitude = array(
+			"user" => "default", 
+			"gratitude" => $newGratitude
+		);
+
+		// Adding new gratitude to existing list
+		array_push($gratitudes, $gratitude);
+
+		// Encoding JSON
+		$jsonData = json_encode($gratitudes);
+
+		$fp = fopen('data.json', 'wa+');
+		fwrite($fp, $jsonData);
+		fclose($fp);
+		echo("<meta http-equiv='refresh' content='1'>");
+	}
+?>
