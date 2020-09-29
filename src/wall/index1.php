@@ -7,13 +7,13 @@ $to = $_POST['search'];
 $msg1 = $_POST['textdata'];
 $wallMessage="Taboola’s wall of gratitude is growing.Express your <a href='http://ti-dev001.taboolasyndication.com:443/wall/'>gratitude</a> now";
  $message = '
- <div style="width:500px; height:250px; padding:20px;padding-bottom: 0px; text-align:center; border: 4px solid #91979a; background-color:#de5233;overflow-y:auto;">
+ <div style="width:500px; height:207px; padding:20px;padding-bottom: 0px; text-align:center; border: 4px solid #91979a; background-color:#de5233;overflow-y:auto;">
        <span style="font-size:35px; font-weight:600; color:#fff; font-style:italic;font-family: fangsong;">A brick of gratitude</span>
       
        <br><br>
        <span style="font-size:18px;color:#f5f5f5;font-family: cursive;"><b>'.$msg1.'</b></span><br/><br/>
 </i></span> <br/><br/>
-       <span style="font-size:18px; color:#fff"><i>&nbsp;'.$wallMessage.'</i></span><br>
+       <span style="font-size:12px; color:#fff"><i>&nbsp;'.$wallMessage.'</i></span><br>
 
 </div>
     
