@@ -5,22 +5,22 @@ $data = file_get_contents($url); // put the contents of the file into a variable
 $gratitudes = json_decode($data); // decode the JSON feed
 $to = $_POST['search'];
 $msg1 = $_POST['textdata'];
+$wallMessage="Taboola’s wall of gratitude is growing.Express your <a href='http://ti-dev001.taboolasyndication.com:443/Jon/'>gratitude</a> now";
  $message = '
- <div style="width:500px; height:250px; padding:20px;padding-bottom: 0px; text-align:center; border: 4px solid #91979a; background-color:#de5233;overflow-y:auto;">
-       <span style="font-size:35px; font-weight:600; color:#4e4646; font-style:italic;font-family: fangsong;">A brick of gratitude</span>
+ <div style="width:500px; height:207px; padding:20px;padding-bottom: 0px; text-align:center; border: 4px solid #91979a; background-color:#de5233;overflow-y:auto;">
+       <span style="font-size:35px; font-weight:600; color:#fff; font-style:italic;font-family: fangsong;">A brick of gratitude</span>
       
        <br><br>
        <span style="font-size:18px;color:#f5f5f5;font-family: cursive;"><b>'.$msg1.'</b></span><br/><br/>
 </i></span> <br/><br/>
-       <span style="font-size:18px; color:#4e4646"><i>&nbsp;'.date("d/m/y").'</i></span><br>
-
+       <span style="font-size:12px; color:#fff"><i>&nbsp;'.$wallMessage.'</i></span><br>
 </div>
     
  
  ';
 // echo $name1;
 // echo $name2;
-$subject = "A Wall of Gratitude ";
+$subject = "Somebody has expressed gratitude to you";
 $headers  = 'MIME-Version: 1.0' . "\r\n";
 $headers .= "From: 'The Great Wall Of Gratitude'\r\n"; 
 $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
