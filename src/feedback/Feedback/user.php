@@ -157,7 +157,7 @@ $count=1;
                           <!--<label>Appreciate to</label>-->
                           
                         
-                          <label class="bmd-label-floating">Email Address of the Peer for whom you want to ShoutOut :</label>
+                          <label class="bmd-label-floating">Enter the email of fellow taboolar :</label>
                           <input type="email" class="form-control" name="email1" required>
                        
                           
@@ -175,7 +175,7 @@ $count=1;
                           <!--<label>Appreciate to</label>-->
                           
                         
-                          <label class="bmd-label-floating">Peer’s Manager Email Address :</label>
+                          <label class="bmd-label-floating">Manger’s email of fellow taboolar :</label>
                           <input type="email" class="form-control" name="email2" required>
                    </div>
                       </div>
@@ -188,12 +188,13 @@ $count=1;
                         <div class="form-group">
                           <!--<label>About Me</label>-->
                           <div class="form-group">
-                            <label class="bmd-label-floating">Quality Exhibited :</label>
+                            <label class="bmd-label-floating">Select the quality exhibited  :</label>
                           
 <fieldset>
  
   <select class="form-control dropdown" id="occupation" name="msg">
-    <option value="" selected="selected" disabled="disabled">-- PS --</option>
+      <option value="" selected="selected" disabled="disabled">-- select the quality --</option
+    <option value=""  disabled="disabled">-- PS --</option>
     
     <option value="Customer Centricity">Customer Centricity</option>
    <option value="Be an Expert">Be an Expert</option>
@@ -203,7 +204,7 @@ $count=1;
        <option value="Assertiveness">Assertiveness</option>
         <option value="Empowering">Empowering </option>
     
-    <option value="" selected="selected" disabled="disabled">-- EMEA BUSINESS --</option>
+    <option value="" disabled="disabled">-- EMEA BUSINESS --</option>
     <option value="Improving quality (anything from processes to life at Taboola)">Improving quality (anything from processes to life at Taboola)</option>
     <option value="Going above and beyond to support colleagues
 ">Going above and beyond to support colleagues
@@ -237,7 +238,7 @@ $count=1;
                         <div class="form-group">
                           <!--<label>About Me</label>-->
                           <div class="form-group">
-                            <label class="bmd-label-floating">Please describe how your Peer exhibited this quality :</label>
+                            <label class="bmd-label-floating">Please describe the quality exhibited :</label>
                             <textarea class="form-control" rows="4" name="msg1" required></textarea>
                           </div>
                         </div>
