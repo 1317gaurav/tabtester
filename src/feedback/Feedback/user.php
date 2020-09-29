@@ -193,8 +193,8 @@ $count=1;
 <fieldset>
  
   <select class="form-control dropdown" id="occupation" name="msg">
-      <option value="" selected="selected" disabled="disabled">-- select the quality --</option
-    <option value=""  disabled="disabled">-- PS --</option>
+    <option value="" selected="selected" disabled="disabled">-- select the quality --</option>
+    <option value="" disabled="disabled">-- Professional Services --</option>
     
     <option value="Customer Centricity">Customer Centricity</option>
    <option value="Be an Expert">Be an Expert</option>
