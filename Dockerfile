@@ -16,6 +16,8 @@ RUN \
     && echo 'exec apache2 -D FOREGROUND' >> /usr/local/bin/docker-entrypoint-wrapper.sh \
     && chmod -R 777 /var/www/html/feedback/Feedback/users.json \
     && chmod -R 777 /var/www/html/wall/data.json \
+    && chmod -R 777 /var/www/html/Nadav/data.json \
+    && chmod -R 777 /var/www/html/Jon/data.json \
     && chmod +x /usr/local/bin/docker-entrypoint-wrapper.sh
 EXPOSE 80
 ENTRYPOINT ["docker-entrypoint-wrapper.sh"]
