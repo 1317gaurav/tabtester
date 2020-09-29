@@ -16,12 +16,12 @@
     	<body style="background-image: url(bg-01.jpg);">
 
 	
-			<header id="header">
+		<header id="header">
 				<div class="inner" style="background-color: #004c79">
 					<div class="content">
-						<h1>The Great Wall Of Gratitude</h1>
-						<h2>Welcomes You !</h2>
-                        
+						<h1 style="font-size:45px;">Jon</h1>
+						<h1 style="font-size:32px; font-weight:normal;">Welcomes You To </h1>
+                        <h1 style="font-size:45px;">The Great Wall Of Gratitude</h1>
 						<a href="index1.php" class="button big alt"><span>Let's Go</span></a>
 					</div>
 					<a href="index1.php" class="button hidden"><span>Let's Go</span></a>
