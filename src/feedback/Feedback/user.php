@@ -194,7 +194,7 @@ $count=1;
  
   <select class="form-control dropdown" id="occupation" name="msg">
     <option value="" selected="selected" disabled="disabled">-- select the quality --</option>
-    <option value="" disabled="disabled">-- Professional Services --</option>
+    <option value="" disabled="disabled">Professional Services</option>
     
     <option value="Customer Centricity">Customer Centricity</option>
    <option value="Be an Expert">Be an Expert</option>
@@ -204,7 +204,7 @@ $count=1;
        <option value="Assertiveness">Assertiveness</option>
         <option value="Empowering">Empowering </option>
     
-    <option value="" disabled="disabled">-- EMEA BUSINESS --</option>
+    <option value="" disabled="disabled">EMEA BUSINESS</option>
     <option value="Improving quality (anything from processes to life at Taboola)">Improving quality (anything from processes to life at Taboola)</option>
     <option value="Going above and beyond to support colleagues
 ">Going above and beyond to support colleagues
