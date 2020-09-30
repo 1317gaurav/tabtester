@@ -48,6 +48,7 @@ $count=1;
       <div class="logo">
         <a href="#" class="simple-text logo-normal">
          <img src="assets/img/logo.png" width="160px">
+          <span style="font-size:10px;">Version 2.0.0</span>
         </a>
       </div>
       <div class="sidebar-wrapper">
@@ -167,6 +168,37 @@ $count=1;
                       </div>
                   
                    <br>
+                    
+                     <div class="row">
+                       <div class="col-md-12">
+                        <div class="form-group">
+                          <!--<label>About Me</label>-->
+                          <div class="form-group">
+                            <label class="bmd-label-floating">Select Region  :</label>
+                          
+<fieldset>
+ 
+  <select class="form-control dropdown" id="occupation" name="region">
+    <option value="" selected="selected" disabled="disabled">-- select one --</option>
+    
+    <option value="APAC">APAC</option>
+   <option value="INDIA">INDIA</option>
+        <option value="EMEA">EMEA</option>
+      <option value="US">US</option>
+    
+     
+   
+
+    
+    
+  </select>
+</fieldset>
+                          </div>
+                        </div>
+                      </div>
+                    </div><br>
+                    
+                    
                    
                    <div class="row">
                          
@@ -293,19 +325,9 @@ $count=1;
         <div class="container-fluid">
           <nav class="float-left">
             <ul>
-              <li>
-                <a target="_blank" href="https://www.taboola.com/">
-                  Taboola
-                </a>
-              </li>
-              <li>
-                <a href="https://brain.taboola.com/">
-                  Brain
-                </a>
-              </li>
-              <li>
-                <a href="https://blog.taboola.com/">
-                  Blog
+                <li>
+                <a target="_blank" href="https://taboola.bamboohr.com/" style="color:green">
+                  Bamboo hr
                 </a>
               </li>
               <li style="color:#003399;">
@@ -317,11 +339,8 @@ $count=1;
             </ul>
           </nav>
           <div class="copyright float-right">
-            &copy;
-            <script>
-              document.write(new Date().getFullYear())
-            </script>, Powered<i class="material-icons"></i> by
-            <a href="" target="_blank">Territory Implementation</a>
+            &copy;Powered<i class="material-icons"></i> by
+            <a href="#" target="_blank" style="color:#002b7a;"><b>Territory Implementation</b></a>
           </div>
         </div>
       </footer>
