@@ -22,6 +22,7 @@ $name=$_SESSION['user']['name'];
 $to=$_POST['email1'];
 $cc=$_POST['email2'];
 $msg=$_POST['msg'];
+$region=$_POST['region'];
 $_SESSION["msg"] = $msg;
 
 $date=date("Y/m/d");
@@ -91,6 +92,7 @@ $dateTime=date("M,d,Y h:i:s A");
                     'fname'     =>     $name,
                     'message'     =>     $msg,
                     'description'     =>     $msg1,
+                    'region'     =>     $region,
                     'pread'     =>     0,
                 );  
                 $array_data[] = $extra;  
