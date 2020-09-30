@@ -185,6 +185,9 @@ Quality Exhibited :
                         <th style="font-size:18px; color:#000000;font-weight:400">
                        Please describe how your<br> Peer exhibited this quality :
                         </th>
+                         <th style="font-size:18px; color:#000000;font-weight:400">
+                      Region :
+                        </th>
                         
                          <th style="font-size:18px; color:#000000;font-weight:400">
                   Date
@@ -200,6 +203,7 @@ Quality Exhibited :
                 <td><?php echo $user['manager'] ?></td>
                 <td><?php echo $user['message'] ?></td>
                 <td><?php echo $user['description'] ?></td> 
+                  <td><?php echo $user['region'] ?></td> 
                 <td><?php echo $user['date'] ?></td> 
                  </tr>    
                        <?php  } ?>
