@@ -207,7 +207,7 @@ $count=1;
                           <!--<label>Appreciate to</label>-->
                           
                         
-                          <label class="bmd-label-floating">Manger’s email of fellow taboolar :</label>
+                          <label class="bmd-label-floating">Manger’s email of fellow taboolar or You can go to Bamboo for email :</label>
                           <input type="email" class="form-control" name="email2" required>
                    </div>
                       </div>
