@@ -213,6 +213,9 @@ Quality Exhibited :
                         <th style="font-size:18px; color:#000000;font-weight:400">
                       How you<br>exhibited this quality :
                         </th>
+                         <th style="font-size:18px; color:#000000;font-weight:400">
+                      Region :
+                        </th>
                         
                          <th style="font-size:18px; color:#000000;font-weight:400">
                   Date
@@ -250,6 +253,7 @@ echo "<tr>" .
             "<td style='$tdStyle'><input type='hidden' name='from'  value='" . $user["from"] . "'  />".$user["from"]."</td>".
             "<td style='$tdStyle'><input type='hidden' name='a'  value='" . $user["message"] . "'  />".$user["message"]."</td>".
             "<td style='$tdStyle'><input type='hidden' name='a1'  value='" . $user["description"] . "'  />".$newtext."</td>".
+  "<td style='$tdStyle'><input type='hidden' name='a1'  value='" . $user["description"] . "'  />".$user["region"]."</td>".
              "<td style='$tdStyle'><input type='hidden' name='dateu'  value='" . $user["date"] . "'  />".$user["date"]."</td>".
             "<td style='$tdStyle'><input type='hidden' name='id'  value='" . $id . "'  /><center><button type='submit' style='color:#003399;font-weight: bold;'>".$icon."</button></center></td>".
             "<td style='$tdStyle'><input type='hidden' name='fname'  value='" . $user["fname"] . "'  /></td>".
