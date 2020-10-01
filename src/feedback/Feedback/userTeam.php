@@ -154,12 +154,12 @@ $count=1;
                         <div class="form-group">
                           <!--<label>About Me</label>-->
                           <div class="form-group">
-                            <label class="bmd-label-floating">Email Address of the Team for whom you want to ShoutOut :</label>
+                            <label class="bmd-label-floating">Select Team:</label>
                           
 <fieldset>
  
   <select class="form-control dropdown" id="occupation" name="email1">
-    <option value="" selected="selected" disabled="disabled">-- select Team --</option>
+    <option value="" selected="selected" disabled="disabled">Select Team</option>
     
     <option value="bp_ti@taboola.com">TI - Best Practice Implementation</option>
    <option value="custom_ti@taboola.com">TI - Custom Implementation</option>
@@ -172,7 +172,7 @@ $count=1;
         <option value="csd-us@taboola.com">CSD - US</option>
         <option value="csd-emea@taboola.com">CSD - EMEA </option>
         <option value="csd-apac@taboola.com">CSD - APAC</option>
-        
+<!--         
         <option value="gaurav.k@taboola.com">Product Enablement - Core Products</option>
         <option value="gaurav.k@taboola.com">Product Enablement - Taboola News</option>
         <option value="gaurav.k@taboola.com">Product Enablement - Mobile</option>
@@ -180,15 +180,94 @@ $count=1;
         
          <option value="gaurav.k@taboola.com">Product - PolSet</option>
           <option value="gaurav.k@taboola.com">Product - Enforcement</option>
-           <option value="gaurav.k@taboola.com">Product - Anti Fraud</option>
+           <option value="gaurav.k@taboola.com">Product - Anti Fraud</option> -->
            
            <option value="psops-analysts@taboola.com">PS-Ops Analysts</option>
-          <option value="gaurav.k@taboola.com">PS OPS - Knowledge</option>
+<!--           <option value="gaurav.k@taboola.com">PS OPS - Knowledge</option>
            <option value="gaurav.k@taboola.com">PS OPS - Project Management</option>
            
-              <option value="gaurav.k@taboola.com">Internal Tools</option>
+              <option value="gaurav.k@taboola.com">Internal Tools</option> -->
+    
+    <option value="" disabled="disabled">Select EMEA DLs</option>
         
-        
+    <option value="media-ams-de@taboola.com">DACH Media Account Management</option>
+    <option value="media-sales-de@taboola.com">DACH Media Sales </option>
+    
+    
+    <option value="pub-ams-de@taboola.com">DACH Pub Account Management</option>
+    <option value="dach-team@taboola.com">DACH Team</option>
+    <option value="emea-country-managers@taboola.com">EMEA Country Managers</option>
+    <option value="csd-emea@taboola.com">EMEA CSD</option>
+    
+    
+    <option value="eu-enterprise-media-am@taboola.com">EMEA Enterprise Media Account Management</option>
+    <option value="uk-finance@taboola.com">EMEA Finance Team</option>
+    <option value="emea-hr@taboola.com">EMEA HR Team</option>
+    <option value="emea-il-team@taboola.com">EMEA IL Team</option>
+    
+    
+    <option value="emea-it@taboola.com">EMEA IT Team</option>
+    <option value="emea-leadership@taboola.com">EMEA Leadership Team</option>
+    <option value="emea-managers@taboola.com">EMEA Managers</option>
+    <option value="geomarketing-emea@taboola.com">EMEA Marketing Team</option>
+    
+    
+    
+    <option value="emea-media-ad@taboola.com">EMEA Media Account Directors</option>
+    <option value="media-ams-eu@taboola.com">EMEA Media Account Management</option>
+    <option value="media-sales-eu@taboola.com">EMEA Media Sales</option>
+    <option value="emea-office-admin@taboola.com">EMEA Media SMB Account Management</option>
+    
+    
+    <option value="emea-office-admin@taboola.com">EMEA Office Administration</option>
+    <option value="pub-ams-eu@taboola.com">EMEA Pub Account Directors</option>
+    <option value="pub-ams-eu@taboola.com">EMEA Pub Account Management</option>
+    <option value="pub-ams-eu-smb@taboola.com">EMEA Pub Account Management Managers</option>
+    
+    
+    
+    <option value="pub-ams-eu-smb@taboola.com">EMEA Pub Account Management SMB</option>
+    <option value="pub-sales-eu@taboola.com">EMEA Pub Sales</option>
+    <option value="pub-sales-eu-smb@taboola.com">EMEA Pub Sales SMB</option>
+    <option value="pub-eu-smb@taboola.com">EMEA Pub SMB Team</option>
+    
+    
+    
+    
+    
+    
+    <option value="pub-eu@taboola.com">EMEA Pub Team</option>
+    <option value="emea-recruitment@taboola.com">EMEA Recruitment Team</option>
+    <option value="sales-eu@taboola.com">EMEA Sales Team</option>
+    
+    
+    <option value="emergingclientservice@taboola.com">Emerging Markets </option>
+    <option value="media-sdrs-eu@taboola.com">EU Media SDRs</option>
+    <option value="media-ams-fr@taboola.com">France Media Account Management</option>
+    <option value="media-sales-fr@taboola.com">France Media Sales</option>
+    
+    
+    
+    <option value="media-fr@taboola.com">France Media Team</option>
+    <option value="pub-ams-fr@taboola.com">France Pub Account Management</option>
+    <option value="pub-sales-fr@taboola.com">France Pub Sales</option>
+    <option value="pub-fr@taboola.com">France Pub Team</option>
+    <option value="france@taboola.com">France Team</option>
+    
+    
+    
+    <option value="sales-enablement@taboola.com">Sales Enablement Team</option>
+    <option value="spain-ams@taboola.com">Spain Media Account Management</option>
+    <option value="media-es@taboola.com">Spain Media Team</option>
+    <option value="spain@taboola.com">Spain Team</option>
+    <option value="media-ams-uk@taboola.com">UK Media Account Management</option>
+    <option value="media-ams-uk-enterprise@taboola.com">UK Media Enterprise Account Management</option>
+    <option value="media-sales-uk@taboola.com">UK Media Sales</option>
+    <option value="media-uk@taboola.com">UK Media Team</option>
+    <option value="pub-ams-uk@taboola.com">UK Pub Account Management</option>
+    <option value="pub-sales-uk@taboola.com">UK Pub Sales</option>
+    <option value="uk@taboola.com">UK Team</option>
+    
     
      
    
@@ -209,12 +288,13 @@ $count=1;
                         <div class="form-group">
                           <!--<label>About Me</label>-->
                           <div class="form-group">
-                            <label class="bmd-label-floating">Quality Exhibited :</label>
+                            <label class="bmd-label-floating">Select the quality exhibited  :</label>
                           
 <fieldset>
  
   <select class="form-control dropdown" id="occupation" name="msg">
-    <option value="" selected="selected" disabled="disabled">-- select one --</option>
+    <option value="" selected="selected" disabled="disabled">-- select the quality --</option>
+    <option value="" disabled="disabled">Professional Services</option>
     
     <option value="Customer Centricity">Customer Centricity</option>
    <option value="Be an Expert">Be an Expert</option>
@@ -224,6 +304,19 @@ $count=1;
        <option value="Assertiveness">Assertiveness</option>
         <option value="Empowering">Empowering </option>
     
+    <option value="" disabled="disabled">EMEA BUSINESS</option>
+    <option value="Improving quality (anything from processes to life at Taboola)">Improving quality (anything from processes to life at Taboola)</option>
+    <option value="Going above and beyond to support colleagues
+">Going above and beyond to support colleagues
+ </option>
+    <option value="Demonstrating exemplary collaboration across geos/teams/functions">Demonstrating exemplary collaboration across geos/teams/functions </option>
+    <option value="Getting things done at super-speed!">Getting things done at super-speed! </option>
+    <option value="Overcoming obstacles">Overcoming obstacles </option>
+     <option value="Coming up with innovative/creative solutions">Coming up with innovative/creative solutions </option>
+    <option value="Saving time or money">Saving time or money </option>
+    <option value="Taking on and delivering on projects outside day-to-day responsibilities">Taking on and delivering on projects outside day-to-day responsibilities </option>
+    <option value="Contributing to the maintenance and definition of Taboola's culture">Contributing to the maintenance and definition of Taboola's culture </option>
+    <option value="Generally being a great person to work with">Generally being a great person to work with </option>
      
    
 
