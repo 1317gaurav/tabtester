@@ -77,7 +77,9 @@ if($domain == $domain1)
   
     
      
-$dateTime=date("M,d,Y h:i:s A");
+$dateTime=date("Y/m/d");
+$day=date("l");
+$month = date('m');
      
      
                 $current_data = file_get_contents('users.json');  
@@ -86,6 +88,8 @@ $dateTime=date("M,d,Y h:i:s A");
                      
                     
                      'date'     =>     $dateTime,
+                     'day'      =>  $day,
+                     'month'      =>  $month,
                      'to'          =>     $to,  
                      'manager'     =>     $cc,
                     'from'     =>     $from,
