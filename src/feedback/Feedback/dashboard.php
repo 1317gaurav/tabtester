@@ -454,7 +454,7 @@ display: block;
 }
 
 $text = $user["description"];
-$newtext = wordwrap($text, 70, "<br />\n");
+$newtext = wordwrap($text, 50, "<br />\n");
 
 
 
