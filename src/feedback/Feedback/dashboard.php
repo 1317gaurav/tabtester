@@ -423,7 +423,7 @@ background-color: #002c79;
                          <div class="table-wrapper-scroll-y my-custom-scrollbar">
                             <input type="text" value="" class="form-control" id="myInput" onkeyup="myFunction()" placeholder="Search by region...">
                     <table class="table" id="myTable">
-                      <thead class="" style="background-color: #002c79;">
+                      <thead class="" style="background-color: #06183a;">
                           
                           
                             <th style="font-size:15px; color: #fff;
