@@ -5,8 +5,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: tabTesting
-    container_name: tabTesting
+    image: tabtesting
+    container_name: tabtesting
     restart: unless-stopped
     dns: 
       - 172.16.19.4
