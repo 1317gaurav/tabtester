@@ -239,7 +239,7 @@ display: block;
          
          
           <li class="nav-item  ">
-            <a class="nav-link" href="user.php">
+            <a class="nav-link" href="composeMail.php">
               <i class="material-icons" style="color:#009bc5;">feedback
 </i>
               <p>Compose</p>
@@ -247,14 +247,14 @@ display: block;
           </li>
           
               <li class="nav-item">
-            <a class="nav-link" href="receive.php">
+            <a class="nav-link" href="receiveMail.php">
               <i class="material-icons" style="color:#009bc5;">inbox</i>
               <p>Received</p>
             </a>
           </li>
           
            <li class="nav-item  ">
-            <a class="nav-link" href="sent.php">
+            <a class="nav-link" href="sentMail.php">
               <i class="material-icons" style="color:#009bc5;">send</i>
               <p>Sent</p>
             </a>
