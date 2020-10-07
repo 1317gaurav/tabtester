@@ -166,12 +166,6 @@ tr:hover td {
     color: #003399;
   
 }
-      th {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  z-index: 2;
-}
 
 button{
      border:0;
@@ -426,13 +420,13 @@ background-color: #002c79;
                       <thead class="" style="background-color: #06183a;">
                           
                           
-                            <th style="font-size:15px; color: #fff;
+                            <th style="font-size:13px; color: #fff;
     font-weight: 700;">
                          Appreciation Sent to:
                         </th>
                         
                         
-                        <th style="font-size:15px; color: #fff;
+                        <th style="font-size:13px; color: #fff;
     font-weight: 700;">
                          Appreciation Sent From:
                         </th>
@@ -441,20 +435,20 @@ background-color: #002c79;
                           
                         Manager Email Address :
                         </th>
-                        <th style="font-size:15px; color: #fff;
+                        <th style="font-size:13px; color: #fff;
     font-weight: 700;">
                          
                         Quality Exhibited :
                         </th>
-                        <th style="font-size:15px; color: #fff;
+                        <th style="font-size:13px; color: #fff;
     font-weight: 700;">
                       Describe<br>quality exhibited:
                         </th>
-                        <th style="font-size:15px; color: #fff;
+                        <th style="font-size:13px; color: #fff;
     font-weight: 700;">
                       Region:
                         </th>
-                         <th style="font-size:15px; color: #fff;
+                         <th style="font-size:13px; color: #fff;
     font-weight: 700;">
                   Date:
                         </th>
