@@ -65,7 +65,7 @@ $_SESSION['user'] =$userData;
 
 $from=$_SESSION['user']['email'];
     
-if($from == 'gaurav.k@taboola.com')
+if($from == 'gaurav.k@taboola.com' or $from == 'jay.s@taboola.com' or $from == 'sudip.c@taboola.com')
 {
     ?>
     <script>
