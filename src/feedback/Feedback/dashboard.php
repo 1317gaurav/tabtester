@@ -412,7 +412,7 @@ display: block;
                         <th style="font-size:15px; color:#000000; font-weight:400">
                          Appreciation Sent From:
                         </th>
-                        <th style="font-size:18px; color:#000000;font-weight:400">
+                        <th style="font-size:15px; color:#000000;font-weight:400">
                           
                         Manager Email Address :
                         </th>
