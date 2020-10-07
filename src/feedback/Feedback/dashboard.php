@@ -415,7 +415,7 @@ background-color: #002c79;
                 <div class="card-body">
                   <div class="table-responsive">
                          <div class="table-wrapper-scroll-y my-custom-scrollbar">
-                            <input type="text" value="" class="form-control" id="myInput" onkeyup="myFunction()" placeholder="Search by region...">
+                            <input type="text" value="" class="form-control" id="myInput" onkeyup="myFunction()" placeholder="Search by region..."><br>
                     <table class="table" id="myTable">
                       <thead class="" style="background-color: #06183a;">
                           
