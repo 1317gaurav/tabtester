@@ -183,7 +183,7 @@ overflow: auto;
 }
 .table-wrapper-scroll-y {
 display: block;
-background-color: #002c79;
+
 }
 .ct-series-a .ct-bar, .ct-series-a .ct-line, .ct-series-a .ct-point, .ct-series-a .ct-slice-donut{
     
