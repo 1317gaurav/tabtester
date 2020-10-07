@@ -5,8 +5,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: tabtesting
-    container_name: tabtesting
+    image: tab
+    container_name: tab
     restart: unless-stopped
     dns: 
       - 172.16.19.4
@@ -14,7 +14,7 @@ services:
     dns_search:
       - taboolasyndication.com
     ports:
-      - "444:80"
+      - "443:80"
     networks:
       - app-network
 networks:
