@@ -401,33 +401,33 @@ display: block;
                          <div class="table-wrapper-scroll-y my-custom-scrollbar">
                             <input type="text" value="" class="form-control" id="myInput" onkeyup="myFunction()" placeholder="Search by region...">
                     <table class="table" id="myTable">
-                      <thead class=" text-primary">
+                      <thead class="text-primary">
                           
                           
-                            <th style="font-size:18px; color:#000000; font-weight:400">
+                            <th style="font-size:15px; color:#000000; font-weight:400">
                          Appreciation Sent to:
                         </th>
                         
                         
-                        <th style="font-size:18px; color:#000000; font-weight:400">
+                        <th style="font-size:15px; color:#000000; font-weight:400">
                          Appreciation Sent From:
                         </th>
                         <th style="font-size:18px; color:#000000;font-weight:400">
                           
                         Manager Email Address :
                         </th>
-                        <th style="font-size:18px; color:#000000;font-weight:400">
+                        <th style="font-size:15px; color:#000000;font-weight:400">
                          
                         Quality Exhibited :
                         </th>
-                        <th style="font-size:18px; color:#000000;font-weight:400">
-                      Describe<br>quality exhibited :
+                        <th style="font-size:15px; color:#000000;font-weight:400">
+                      Describe<br>quality exhibited:
                         </th>
-                        <th style="font-size:18px; color:#000000;font-weight:400">
-                      Region :
+                        <th style="font-size:15px; color:#000000;font-weight:400">
+                      Region:
                         </th>
-                         <th style="font-size:18px; color:#000000;font-weight:400">
-                  Date
+                         <th style="font-size:15px; color:#000000;font-weight:400">
+                  Date:
                         </th>
                   <!--      <th style="font-size:18px; color:#000000;font-weight:400; text-align:center" >-->
                   <!--Read/Unread-->
