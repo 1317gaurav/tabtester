@@ -58,8 +58,17 @@ $count=1;
       </div>
       <div class="sidebar-wrapper">
         <ul class="nav">
+                       <li class="nav-item active ">
+            <a class="nav-link" href="dashboard.php">
+              <i class="material-icons" style="color:#009bc5;">dashboard
+</i>
+              <p>Dashboard</p>
+            </a>
+          </li>
+            
+            
           <li class="nav-item active  ">
-           <a class="nav-link" href="user.php">
+           <a class="nav-link" href="composeMail.php">
               <i class="material-icons"style="color:#009bc5;">feedback
 </i>
               <p>Compose</p>
