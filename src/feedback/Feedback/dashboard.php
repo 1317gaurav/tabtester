@@ -340,7 +340,7 @@ display: block;
                 <div class="ct-chart"></div>
                 </div>
                 <div class="card-body">
-                  <h4 class="card-title">ShoutOuts sent last weeek</h4>
+                  <h4 class="card-title">ShoutOuts sent this weeek</h4>
                   <p class="card-category">
               <span class="text-success" style="font-size:50px;"><?php echo $unread1 ?></span></p>
                 </div>
