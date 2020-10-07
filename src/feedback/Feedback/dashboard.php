@@ -419,29 +419,36 @@ display: block;
                       <thead class="text-primary">
                           
                           
-                            <th style="font-size:15px; color:#000000; font-weight:400">
+                            <th style="font-size:15px; color: #007bff;
+    font-weight: 700;">
                          Appreciation Sent to:
                         </th>
                         
                         
-                        <th style="font-size:15px; color:#000000; font-weight:400">
+                        <th style="font-size:15px; color: #007bff;
+    font-weight: 700;">
                          Appreciation Sent From:
                         </th>
-                        <th style="font-size:15px; color:#000000;font-weight:400">
+                        <th style="font-size:15px; color: #007bff;
+    font-weight: 700;">
                           
                         Manager Email Address :
                         </th>
-                        <th style="font-size:15px; color:#000000;font-weight:400">
+                        <th style="font-size:15px; color: #007bff;
+    font-weight: 700;">
                          
                         Quality Exhibited :
                         </th>
-                        <th style="font-size:15px; color:#000000;font-weight:400">
+                        <th style="font-size:15px; color: #007bff;
+    font-weight: 700;">
                       Describe<br>quality exhibited:
                         </th>
-                        <th style="font-size:15px; color:#000000;font-weight:400">
+                        <th style="font-size:15px; color: #007bff;
+    font-weight: 700;">
                       Region:
                         </th>
-                         <th style="font-size:15px; color:#000000;font-weight:400">
+                         <th style="font-size:15px; color: #007bff;
+    font-weight: 700;">
                   Date:
                         </th>
                   <!--      <th style="font-size:18px; color:#000000;font-weight:400; text-align:center" >-->
