@@ -415,7 +415,7 @@ display: block;
                 <div class="card-body">
                   <div class="table-responsive">
                          <div class="table-wrapper-scroll-y my-custom-scrollbar">
-                            <input type="text" value="" class="form-control" id="myInput" onkeyup="myFunction()" placeholder="Search by region..."><br>
+                            <input type="text" value="" class="form-control" style="border-radius: 3.25rem;" id="myInput" onkeyup="myFunction()" placeholder="Search by region..."><br>
                     <table class="table" id="myTable">
                       <thead class="" style="background-color: #06183a;">
                           
