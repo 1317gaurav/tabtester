@@ -69,7 +69,7 @@ if($from == 'gaurav.k@taboola.com')
 {
     ?>
     <script>
-        window.location="userAdmin.php";
+        window.location="dashboard.php";
         </script>
     <?php
 }   
