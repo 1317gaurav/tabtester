@@ -58,7 +58,7 @@ $count=1;
       </div>
       <div class="sidebar-wrapper">
         <ul class="nav">
-                       <li class="nav-item active ">
+                       <li class="nav-item ">
             <a class="nav-link" href="dashboard.php">
               <i class="material-icons" style="color:#009bc5;">dashboard
 </i>
@@ -67,7 +67,7 @@ $count=1;
           </li>
             
             
-          <li class="nav-item active  ">
+          <li class="nav-item active">
            <a class="nav-link" href="composeMail.php">
               <i class="material-icons"style="color:#009bc5;">feedback
 </i>
@@ -75,7 +75,7 @@ $count=1;
             </a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="receive.php">
+            <a class="nav-link" href="receiveMail.php">
               <i class="material-icons" style="color:#009bc5;">inbox</i>
               <p>Received</p>
             </a>
@@ -83,7 +83,7 @@ $count=1;
           
           
           <li class="nav-item  ">
-             <a class="nav-link" href="sent.php">
+             <a class="nav-link" href="sentMail.php">
               <i class="material-icons"style="color:#009bc5;">send</i>
               <p>Sent</p>
             </a>
