@@ -334,7 +334,7 @@ display: block;
               </div>
             </div>
             <div class="col-md-4">
-              <div class="card card-chart">
+              <div class="card card-chart" style="color:#fff;">
                 <div class="card-header card-header-warning">
                   <div class="ct-chart1" id=""></div>
                 </div>
