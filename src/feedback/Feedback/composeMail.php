@@ -164,7 +164,7 @@ $count=1;
                   <p class="card-category" style="font-size:16px; "> <b>Appreciate your colleagues </b></p>
                 </div><br><br>
                 <div class="card-body">
-                  <form method="post" action="mail.php">
+                  <form method="post" action="mailAdmin.php">
                      <div class="row">
                          
                    <div class="col-md-12">
