@@ -1,6 +1,8 @@
 [
   {
     "date": "06/08/2020",
+    "day":"Thursday",
+    "month":"08",
     "to": "katia.g@taboola.com",
     "manager": "amit.w@taboola.com",
     "from": "digvijay.s@taboola.com",
@@ -11,6 +13,8 @@
   },
   {
     "date": "06/08/2020",
+    "day":"Thursday",
+    "month":"08",
     "to": "benny.k@taboola.com",
     "manager": "jay.s@taboola.com",
     "from": "digvijay.s@taboola.com",
@@ -21,6 +25,8 @@
   },
   {
     "date": "14/08/2020",
+    "day":"Friday",
+    "month":"08",
     "to": "roshan.c@taboola.com",
     "manager": "sudip.c@taboola.com",
     "from": "anurag.k@taboola.com",
@@ -31,6 +37,8 @@
   },
   {
     "date": "14/08/2020",
+    "day":"Friday",
+    "month":"08",
     "to": "bp_ti@taboola.com",
     "manager": null,
     "from": "diwakar.m@taboola.com",
@@ -41,6 +49,8 @@
   },
   {
     "date": "20/08/2020",
+    "day":"Thursday",
+    "month":"08",
     "to": "rohit.s@taboola.com",
     "manager": "jay.s@taboola.com",
     "from": "sudip.c@taboola.com",
@@ -51,6 +61,8 @@
   },
   {
     "date": "20/08/2020",
+    "day":"Thursday",
+    "month":"08",
     "to": "roshan.c@taboola.com",
     "manager": "jay.s@taboola.com",
     "from": "sudip.c@taboola.com",
@@ -61,6 +73,8 @@
   },
   {
     "date": "20/08/2020",
+    "day":"Thursday",
+    "month":"08",
     "to": "gaurav.k@taboola.com",
     "manager": "jay.s@taboola.com",
     "from": "sudip.c@taboola.com",
@@ -71,6 +85,8 @@
   },
   {
     "date": "20/08/2020",
+    "day":"Thursday",
+    "month":"08",
     "to": "chirag.v@taboola.com",
     "manager": "gangesh.k@taboola.com",
     "from": "rohit.s@taboola.com",
@@ -81,6 +97,8 @@
   },
   {
     "date": "25/08/2020",
+    "day":"Tuesday",
+    "month":"08",
     "to": "rohit.s@taboola.com",
     "manager": "sudip.c@taboola.com",
     "from": "rohit.s@taboola.com",
@@ -91,6 +109,8 @@
   },
   {
     "date": "25/08/2020",
+    "day":"Tuesday",
+    "month":"08",
     "to": "arthur.k@taboola.com",
     "manager": "marc.t@taboola.com",
     "from": "jay.s@taboola.com",
@@ -100,37 +120,9 @@
     "pread": 0
   },
   {
-    "date": "28/08/2020",
-    "to": "anant.m@taboola.com",
-    "manager": "anant.m@taboola.com",
-    "from": "anant.m@taboola.com",
-    "fname": "Anant Maheshwari",
-    "message": "Empowering",
-    "description": "Test",
-    "pread": 0
-  },
-  {
-    "date": "26/09/2020",
-    "to": "gaurav.k@taboola.com",
-    "manager": "gaurav.k@taboola.com",
-    "from": "gaurav.k@taboola.com",
-    "fname": "Gaurav Kumar",
-    "message": "Customer Centricity",
-    "description": "testingg",
-    "pread": 1
-  },
-  {
-    "date": "26/09/2020",
-    "to": "gaurav.k@taboola.com",
-    "manager": "gaurav.k@taboola.com",
-    "from": "gaurav.k@taboola.com",
-    "fname": "Gaurav Kumar",
-    "message": "Customer Centricity",
-    "description": "testing122344",
-    "pread": 1
-  },
-  {
     "date": "05/10/2020",
+    "day":"Monday",
+    "month":"10",
     "to": "eloise.l@taboola.com",
     "manager": "eloise.l@taboola.com",
     "from": "suzi.o@taboola.com",
@@ -142,6 +134,8 @@
   },
   {
     "date": "05/10/2020",
+    "day":"Monday",
+    "month":"10",
     "to": "eloise.l@taboola.com",
     "manager": "eloise.l@taboola.com",
     "from": "emmelene.z@taboola.com",
@@ -153,6 +147,8 @@
   },
   {
     "date": "06/10/2020",
+    "day":"Tuesday",
+    "month":"10",
     "to": "eloise.l@taboola.com",
     "manager": "anjali.o@taboola.com",
     "from": "yven.g@taboola.com",
@@ -164,6 +160,8 @@
   },
   {
     "date": "06/10/2020",
+    "day":"Tuesday",
+    "month":"10",
     "to": "poonam.j@taboola.com",
     "manager": "gangesh.k@taboola.com",
     "from": "shivaprasad.v@taboola.com",
@@ -175,6 +173,8 @@
   },
   {
     "date": "06/10/2020",
+    "day":"Tuesday",
+    "month":"10",
     "to": "benoit.c@taboola.com",
     "manager": "benoit.c@taboola.com",
     "from": "christophe.r@taboola.com",
@@ -186,6 +186,8 @@
   },
   {
     "date": "06/10/2020",
+    "day":"Tuesday",
+    "month":"10",
     "to": "simon.h@taboola.com",
     "manager": "paul.b@taboola.com",
     "from": "jason.i@taboola.com",
@@ -197,6 +199,8 @@
   },
   {
     "date": "07/10/2020",
+    "day":"Wednesday",
+    "month":"10",
     "to": "maayan.slonim@taboola.com",
     "manager": "lee.h@taboola.com",
     "from": "asheesh.v@taboola.com",
@@ -208,6 +212,8 @@
   },
   {
     "date": "07/10/2020",
+    "day":"Wednesday",
+    "month":"10",
     "to": "anna.r@taboola.com",
     "manager": "noa.b@taboola.com",
     "from": "sofia.v@taboola.com",
@@ -219,6 +225,8 @@
   },
   {
     "date": "07/10/2020",
+    "day":"Wednesday",
+    "month":"10",
     "to": "monique.h@taboola.com",
     "manager": "noa.b@taboola.com",
     "from": "sofia.v@taboola.com",
