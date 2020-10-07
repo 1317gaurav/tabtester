@@ -357,11 +357,11 @@ display: block;
                 <div class="card-body">
                   <h4 class="card-title">ShoutOuts sent this weeek</h4>
                   <p class="card-category">
-              <span class="text-success" style="font-size:50px;"><?php echo $unread1 ?></span></p>
+              <span class="text-success" style="font-size:50px; color:#03234c;"><?php echo $unread1 ?></span></p>
                 </div>
                 <div class="card-footer">
                   <div class="stats">
-                    <i class="material-icons">access_time</i> updated <?php echo date("d/m/y") ?>
+                    <i class="material-icons">access_time</i> updated <?php echo date("D M j G:i:s T Y"); ?>
                   </div>
                 </div>
               </div>
@@ -374,11 +374,11 @@ display: block;
                 <div class="card-body">
                   <h4 class="card-title">ShoutOuts sent this Quarter</h4>
 
-              <span class="text-warning" style="font-size:50px;"><?php echo $Q4 ?></span></p>
+              <span class="text-warning" style="font-size:50px;color:#03234c;"><?php echo $Q4 ?></span></p>
                 </div>
                 <div class="card-footer">
                   <div class="stats">
-                   <i class="material-icons">access_time</i> updated <?php echo date("d/m/y") ?>
+                   <i class="material-icons">access_time</i> updated <?php echo date("D M j G:i:s T Y"); ?>
                   </div>
                 </div>
               </div>
@@ -391,11 +391,11 @@ display: block;
                 <div class="card-body">
                   <h4 class="card-title">Total ShoutOuts Sent</h4>
         
-              <span class="text-danger" style="font-size:50px;"><?php echo $year ?></span></p>
+              <span class="text-danger" style="font-size:50px; color:#03234c;"><?php echo $year ?></span></p>
                 </div>
                 <div class="card-footer">
                   <div class="stats">
-                  <i class="material-icons">access_time</i> updated <?php echo date("d/m/y") ?>
+                  <i class="material-icons">access_time</i> updated <?php echo date("D M j G:i:s T Y"); ?>
                   </div>
                 </div>
               </div>
