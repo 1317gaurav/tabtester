@@ -1,16 +1,6 @@
 [
   {
-    "date": "Jan,23,2020 10:47:04 AM",
-    "to": "gaurav.k@taboola.com",
-    "manager": "gaurav.k@taboola.com",
-    "from": "gaurav.k@taboola.com",
-    "fname": "Gaurav Kumar",
-    "message": "Be an Expert",
-    "description": "test",
-    "pread": 1
-  },
-  {
-    "date": "Aug,06,2020 11:52:31 AM",
+    "date": "06/08/2020",
     "to": "katia.g@taboola.com",
     "manager": "amit.w@taboola.com",
     "from": "digvijay.s@taboola.com",
@@ -20,7 +10,7 @@
     "pread": 0
   },
   {
-    "date": "Aug,06,2020 04:18:34 PM",
+    "date": "06/08/2020",
     "to": "benny.k@taboola.com",
     "manager": "jay.s@taboola.com",
     "from": "digvijay.s@taboola.com",
@@ -30,7 +20,7 @@
     "pread": 0
   },
   {
-    "date": "Aug,14,2020 09:35:50 AM",
+    "date": "14/08/2020",
     "to": "roshan.c@taboola.com",
     "manager": "sudip.c@taboola.com",
     "from": "anurag.k@taboola.com",
@@ -40,7 +30,7 @@
     "pread": 1
   },
   {
-    "date": "Aug,14,2020 04:21:14 PM",
+    "date": "14/08/2020",
     "to": "bp_ti@taboola.com",
     "manager": null,
     "from": "diwakar.m@taboola.com",
@@ -50,17 +40,7 @@
     "pread": 0
   },
   {
-    "date": "Aug,17,2020 09:09:27 AM",
-    "to": "gaurav.k@taboola.com",
-    "manager": "gs1465010@gmail.com",
-    "from": "gaurav.k@taboola.com",
-    "fname": "Gaurav Kumar",
-    "message": "Be an Expert",
-    "description": "testing",
-    "pread": 1
-  },
-  {
-    "date": "Aug,20,2020 06:22:38 PM",
+    "date": "20/08/2020",
     "to": "rohit.s@taboola.com",
     "manager": "jay.s@taboola.com",
     "from": "sudip.c@taboola.com",
@@ -70,7 +50,7 @@
     "pread": 1
   },
   {
-    "date": "Aug,20,2020 06:34:32 PM",
+    "date": "20/08/2020",
     "to": "roshan.c@taboola.com",
     "manager": "jay.s@taboola.com",
     "from": "sudip.c@taboola.com",
@@ -80,7 +60,7 @@
     "pread": 0
   },
   {
-    "date": "Aug,20,2020 06:41:58 PM",
+    "date": "20/08/2020",
     "to": "gaurav.k@taboola.com",
     "manager": "jay.s@taboola.com",
     "from": "sudip.c@taboola.com",
@@ -90,7 +70,7 @@
     "pread": 1
   },
   {
-    "date": "Aug,20,2020 08:16:55 PM",
+    "date": "20/08/2020",
     "to": "chirag.v@taboola.com",
     "manager": "gangesh.k@taboola.com",
     "from": "rohit.s@taboola.com",
@@ -100,7 +80,7 @@
     "pread": 1
   },
   {
-    "date": "Aug,25,2020 09:28:38 AM",
+    "date": "25/08/2020",
     "to": "rohit.s@taboola.com",
     "manager": "sudip.c@taboola.com",
     "from": "rohit.s@taboola.com",
@@ -110,7 +90,7 @@
     "pread": 0
   },
   {
-    "date": "Aug,25,2020 01:46:45 PM",
+    "date": "25/08/2020",
     "to": "arthur.k@taboola.com",
     "manager": "marc.t@taboola.com",
     "from": "jay.s@taboola.com",
@@ -120,7 +100,7 @@
     "pread": 0
   },
   {
-    "date": "Aug,28,2020 12:43:08 PM",
+    "date": "28/08/2020",
     "to": "anant.m@taboola.com",
     "manager": "anant.m@taboola.com",
     "from": "anant.m@taboola.com",
@@ -130,7 +110,7 @@
     "pread": 0
   },
   {
-    "date": "Sep,26,2020 04:24:01 AM",
+    "date": "26/09/2020",
     "to": "gaurav.k@taboola.com",
     "manager": "gaurav.k@taboola.com",
     "from": "gaurav.k@taboola.com",
@@ -140,13 +120,112 @@
     "pread": 1
   },
   {
-    "date": "Sep,26,2020 04:24:36 AM",
+    "date": "26/09/2020",
     "to": "gaurav.k@taboola.com",
     "manager": "gaurav.k@taboola.com",
     "from": "gaurav.k@taboola.com",
     "fname": "Gaurav Kumar",
     "message": "Customer Centricity",
     "description": "testing122344",
+    "pread": 1
+  },
+  {
+    "date": "05/10/2020",
+    "to": "eloise.l@taboola.com",
+    "manager": "eloise.l@taboola.com",
+    "from": "suzi.o@taboola.com",
+    "fname": "Suzi Osman",
+    "message": "Be an Expert",
+    "description": "Amazing ",
+    "region": "EMEA",
+    "pread": 0
+  },
+  {
+    "date": "05/10/2020",
+    "to": "eloise.l@taboola.com",
+    "manager": "eloise.l@taboola.com",
+    "from": "emmelene.z@taboola.com",
+    "fname": "Emmelene Zack",
+    "message": "Collaboration",
+    "description": "Thank you for being out Batman <3 ",
+    "region": "EMEA",
+    "pread": 0
+  },
+  {
+    "date": "06/10/2020",
+    "to": "eloise.l@taboola.com",
+    "manager": "anjali.o@taboola.com",
+    "from": "yven.g@taboola.com",
+    "fname": "Yven Gonnet",
+    "message": "Improving quality (anything from processes to life at Taboola)",
+    "description": "Eloise, thanks so much for your hard work on this peer-to-peer recognition and gratitude program - I am very excited about this Taboola Inspire project now live!",
+    "region": "EMEA",
+    "pread": 0
+  },
+  {
+    "date": "06/10/2020",
+    "to": "poonam.j@taboola.com",
+    "manager": "gangesh.k@taboola.com",
+    "from": "shivaprasad.v@taboola.com",
+    "fname": "Shivaprasad VP",
+    "message": "Be an Expert",
+    "description": "Poonam has improved greatly in terms of handling customers and being an expert in the Taboola News front. She has also shown great initiation with the India Spirit Committee. Unfortunately, the form only allows me to select one quality. She has great potential, and her hard-work and professionalism is worth mentioning.",
+    "region": "INDIA",
+    "pread": 1
+  },
+  {
+    "date": "06/10/2020",
+    "to": "benoit.c@taboola.com",
+    "manager": "benoit.c@taboola.com",
+    "from": "christophe.r@taboola.com",
+    "fname": "Christophe Raguideau",
+    "message": "Demonstrating exemplary collaboration across geos/teams/functions",
+    "description": "Patient / Resilient / Positive",
+    "region": "EMEA",
+    "pread": 0
+  },
+  {
+    "date": "06/10/2020",
+    "to": "simon.h@taboola.com",
+    "manager": "paul.b@taboola.com",
+    "from": "jason.i@taboola.com",
+    "fname": "Jason Iliou",
+    "message": "Overcoming obstacles",
+    "description": "Simon, thank you so much for the tremendous work you've been doing for the UK Pub Enterprise this year. Your ability to step into calls and offer your technical support and knowledge, the speed by which you execute and the quality of your work are inspirational to the team and everyone knows they can trust you blindly when you deliver a task.\r\n\r\nIt's a pleasure working alongside you, so just wanted to say Thank You for dealing with all our obscene and urgent requests in such a manner and contributing to our revenues and relationship with our partners.",
+    "region": "EMEA",
+    "pread": 0
+  },
+  {
+    "date": "07/10/2020",
+    "to": "maayan.slonim@taboola.com",
+    "manager": "lee.h@taboola.com",
+    "from": "asheesh.v@taboola.com",
+    "fname": "Asheesh Verma",
+    "message": "Collaboration",
+    "description": "Maayan is really good in Collaboration, bringing new ideas/innovations to the projects. She is very supportive & a very good listener. She is always available.\r\nThank You Maayan & Lee :)",
+    "region": "EMEA",
+    "pread": 0
+  },
+  {
+    "date": "07/10/2020",
+    "to": "anna.r@taboola.com",
+    "manager": "noa.b@taboola.com",
+    "from": "sofia.v@taboola.com",
+    "fname": "Sofia Von Wedemeyer",
+    "message": "Getting things done at super-speed!",
+    "description": "Thanks for your continued support in reviewing campaigns at super-speed and therefore supporting us as AMs! You are always available, always give helpful advice to pass back to our clients and always promptly react to our 10000 gchats and cases! THANK YOU!",
+    "region": "EMEA",
+    "pread": 0
+  },
+  {
+    "date": "07/10/2020",
+    "to": "monique.h@taboola.com",
+    "manager": "noa.b@taboola.com",
+    "from": "sofia.v@taboola.com",
+    "fname": "Sofia Von Wedemeyer",
+    "message": "Getting things done at super-speed!",
+    "description": "Thanks for your continued support in reviewing campaigns at super-speed and therefore supporting us as AMs! You are always available, always give helpful advice to pass back to our clients and always promptly react to our 10000 gchats and cases! THANK YOU!",
+    "region": "EMEA",
     "pread": 0
   }
 ]
