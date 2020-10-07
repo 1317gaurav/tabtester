@@ -339,7 +339,7 @@ display: block;
                   <div class="ct-chart1" id=""></div>
                 </div>
                 <div class="card-body">
-                  <h4 class="card-title">ShoutOuts sent Quartely</h4>
+                  <h4 class="card-title">ShoutOuts sent this Quarter</h4>
 
               <span class="text-warning" style="font-size:50px;"><?php echo $Q4 ?></span></p>
                 </div>
