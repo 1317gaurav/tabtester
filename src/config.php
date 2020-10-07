@@ -8,6 +8,6 @@ $client->setAuthConfig('client_credentials.json');
 // $client->addScope(Google_Service_Oauth2::USERINFO_EMAIL);
 // $client->addScope(Google_Service_Oauth2::PLUS_ME);
 $client->addScope("https://www.googleapis.com/auth/plus.login https://www.googleapis.com/auth/userinfo.email");	
-$client->setRedirectUri("http://ti-dev001.taboolasyndication.com:443/feedback/Feedback/index.php");
+$client->setRedirectUri("http://ti-dev001.taboolasyndication.com:444/feedback/Feedback/index.php");
 
 ?>
