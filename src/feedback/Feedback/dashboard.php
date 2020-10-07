@@ -91,28 +91,28 @@ $end_week = date("Y/m/d",$end_week);
                         
                         $count=1;
                           foreach ($users as $user):
-                              if (($user['month'] >=01) && ($user['month'] <= 03)){
+                              if (($user['month'] >='01') && ($user['month'] <= '03')){
                           $Q1=$count++;
                           } 
                          
                         endforeach;
                         $count=1;
                           foreach ($users as $user):
-                              if (($user['month'] >=04) && ($user['month'] <= 06)){
+                              if (($user['month'] >='04') && ($user['month'] <= '06')){
                           $Q2=$count++;
                           } 
                          
                         endforeach;
                         $count=1;
                           foreach ($users as $user):
-                              if (($user['month'] >=07 && ($user['month'] <= 09))){
+                              if (($user['month'] >='07' && ($user['month'] <= '09'))){
                           $Q3=$count++;
                           } 
                          
                         endforeach;
                         $count=1;
                           foreach ($users as $user):
-                              if (($user['month'] >=10) && ($user['month'] <= 12)){
+                              if (($user['month'] >='10') && ($user['month'] <= '12')){
                           $Q4=$count++;
                           } 
                          
