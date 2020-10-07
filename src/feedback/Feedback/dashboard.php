@@ -189,6 +189,7 @@ overflow: auto;
 }
 .table-wrapper-scroll-y {
 display: block;
+background-color: #002c79;
 }
 .ct-series-a .ct-bar, .ct-series-a .ct-line, .ct-series-a .ct-point, .ct-series-a .ct-slice-donut{
     
@@ -425,35 +426,35 @@ display: block;
                       <thead class="" style="background-color: #002c79;">
                           
                           
-                            <th style="font-size:15px; color: #007bff;
+                            <th style="font-size:15px; color: #fff;
     font-weight: 700;">
                          Appreciation Sent to:
                         </th>
                         
                         
-                        <th style="font-size:15px; color: #007bff;
+                        <th style="font-size:15px; color: #fff;
     font-weight: 700;">
                          Appreciation Sent From:
                         </th>
-                        <th style="font-size:15px; color: #007bff;
+                        <th style="font-size:15px; color: #fff;
     font-weight: 700;">
                           
                         Manager Email Address :
                         </th>
-                        <th style="font-size:15px; color: #007bff;
+                        <th style="font-size:15px; color: #fff;
     font-weight: 700;">
                          
                         Quality Exhibited :
                         </th>
-                        <th style="font-size:15px; color: #007bff;
+                        <th style="font-size:15px; color: #fff;
     font-weight: 700;">
                       Describe<br>quality exhibited:
                         </th>
-                        <th style="font-size:15px; color: #007bff;
+                        <th style="font-size:15px; color: #fff;
     font-weight: 700;">
                       Region:
                         </th>
-                         <th style="font-size:15px; color: #007bff;
+                         <th style="font-size:15px; color: #fff;
     font-weight: 700;">
                   Date:
                         </th>
