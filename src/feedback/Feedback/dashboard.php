@@ -371,7 +371,7 @@ display: block;
                 <div class="card-body">
                   <h4 class="card-title">ShoutOuts sent this week</h4>
                   <p class="card-category">
-              <span class="" style="font-size:50px; color:#03234c;"><?php echo $unread1 ?></span></p><br>
+                   <span class="text-success" style="font-size:50px;">   <a href="" data-toggle="modal" data-target="#myModal"><?php echo $unread1 ?></a></span></p><br>
                 </div>
                 <div class="card-footer">
                   <div class="stats">
@@ -530,50 +530,104 @@ echo "<tr>" .
             </div>
 
             
-            
-            <div class="modal fade" id="editmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" >
-  <div class="modal-dialog modal-dialog-centered" role="document" >
-    <div class="modal-content">
-      <div class="modal-header"style="background-color:#003399;">
-          
-        <h5 class="modal-title" id="exampleModalLongTitle" style="text-align:center; color:#fff;">Taboola ShoutOut from <input  style="border:0; text-align:center;color:#fff; background-color:#003399" type="text"  id="sno" readonly></h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+      <div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content" style="width:900px; margin-left:-180px;">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">ShoutOuts sent this week</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
       </div>
-      
-      <form>
+
+      <!-- Modal body -->
       <div class="modal-body">
-          
-          
-  <div class="form-group">
+           <input type="text" value="" class="form-control" id="myInput" onkeyup="myFunction()" placeholder="Search by region...">
+                    <table class="table" id="myTable">
+                      <thead class="" style="background-color: #06183a; color:#fff;">
+                          
+                          
+                            <th style="font-size:15px;  font-weight:400">
+                         Appreciation Sent to:
+                        </th>
+                        
+                        
+                        <th style="font-size:15px; font-weight:400">
+                         Appreciation Sent From:
+                        </th>
+                        <th style="font-size:15px; font-weight:400">
+                         
+                        Quality Exhibited :
+                        </th>
+                        <th style="font-size:15px; font-weight:400">
+                      Region:
+                        </th>
+                         <th style="font-size:15px;font-weight:400">
+                  Date:
+                        </th>
+                  <!--      <th style="font-size:18px; color:#000000;font-weight:400; text-align:center" >-->
+                  <!--Read/Unread-->
+                  <!--      </th>-->
+                        
+                        
+                      </thead>
+                      <tbody>
+                          
+                          
+                          <?php 
+                          $count=1;
+                          $dateTime=date("Y/m/d");
+                          foreach ($users as $user): 
+                               if (($user['date'] >= $start_week) && ($user['date'] <= $end_week)){
+                          $year=$count++;
+           $id = $user['date'];
+    $_SESSION["sno"] =  $id;
+    if($user['pread']=="0") {
+    $tdStyle='background-color:#E8E8E8;font-weight: bold;';
     
+     $icon='VIEW';
+}
+if($user['date']==$dateTime) {
+    $tdStyle='background-color:#008aff1a;font-weight: bold;';
+    
+     $icon='VIEW';
+}
+else {
+    $tdStyle='';
+    $icon='<i class="material-icons" style="color:#00347a;">check_circle</i>';
+}
+
+$text = $user["description"];
+$newtext = wordwrap($text, 50, "<br />\n");
+
+
+
+echo "<tr>" .
+            '<form action="inbox.php" method="post">'.
+            "<td style='$tdStyle'><input type='hidden' name='from'  value='" . $user["to"] . "'  />".$user["to"]."</td>".
+            "<td style='$tdStyle'><input type='hidden' name='a'  value='" . $user["from"] . "'  />".$user["from"]."</td>".
+              "<td style='$tdStyle'><input type='hidden' name='a'  value='" . $user["message"] . "'  />".$user["message"]."</td>".
+            "<td style='$tdStyle'><input type='hidden' name='a1'  value='" . $user["region"] . "'  />".$user["region"]."</td>".
+             "<td style='$tdStyle'><input type='hidden' name='dateu'  value='" . $user["date"] . "'  />".$user["date"]."</td>".
+            "</form>".
+            "</tr>";
+
+
+}
+                       
+                       ?>
+                        <?php 
+                        endforeach; 
+                        ?>
+                      </tbody>
+                    </table>
   </div>
-  <div class="form-group">
-    <input type="text" style="border:0" id="sno1" readonly>
-  </div>
-          <img src="assets/img/sdsidebar-2.jpg" width="460">
-      </div>
-      
-      
-          
-           <div id="sno"></div>
-     
-      
-       <div class="form-group">
-           <input type="text" style="border:0" id="sno2" readonly>
-  </div>
-      </form>
-      
-      
-      
+
+      <!-- Modal footer -->
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-   
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
       </div>
-    </div>
-  </div>
-</div>
+
 
 
     
