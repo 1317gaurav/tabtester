@@ -7,6 +7,9 @@ header("Location:../../index.html");
 }
 require_once 'users.php';
 $users = getUsers();
+
+$result = $users;
+$users = array_reverse($users);
 // print_r($users);
 $from=$_SESSION['user']['email'];
 $name=$_SESSION['user']['name'];
