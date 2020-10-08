@@ -244,4 +244,18 @@
     "region": "EMEA",
     "pread": 0
   }
+  ,
+  {
+    "date": "2020/10/07",
+    "day":"Wednesday",
+    "month":"10",
+    "to": "spain-ams@taboola.com",
+    "manager": "noa.b@taboola.com",
+    "from": "laura.b@taboola.com",
+    "fname": "Laura Blanco",
+    "message": "Generally being a great person to work with",
+    "description": "It is a pleasure to come to work every day with people like you in the team ! :)",
+    "region": "",
+    "pread": 0
+  }
 ]
