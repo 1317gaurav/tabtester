@@ -478,6 +478,9 @@ display: block;
 
 $text = $user["description"];
 $newtext = wordwrap($text, 50, "<br />\n");
+                          
+$text1 = $user["message"];
+$newtext1 = wordwrap($text1, 30, "<br />\n");
 
 
 
@@ -486,7 +489,7 @@ echo "<tr>" .
             "<td style='$tdStyle'><input type='hidden' name='from'  value='" . $user["to"] . "'  />".$user["to"]."</td>".
             "<td style='$tdStyle'><input type='hidden' name='a'  value='" . $user["from"] . "'  />".$user["from"]."</td>".
              "<td style='$tdStyle'><input type='hidden' name='a'  value='" . $user["manager"] . "'  />".$user["manager"]."</td>".
-              "<td style='$tdStyle'><input type='hidden' name='a'  value='" . $user["message"] . "'  />".$user["message"]."</td>".
+              "<td style='$tdStyle'><input type='hidden' name='a'  value='" . $user["message"] . "'  />".$newtext1."</td>".
             "<td style='$tdStyle'><input type='hidden' name='a1'  value='" . $user["description"] . "'  />".$newtext."</td>".
             "<td style='$tdStyle'><input type='hidden' name='a1'  value='" . $user["region"] . "'  />".$user["region"]."</td>".
              "<td style='$tdStyle'><input type='hidden' name='dateu'  value='" . $user["date"] . "'  />".$user["date"]."</td>".
