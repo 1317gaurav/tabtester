@@ -161,13 +161,13 @@ $end_week = date("Y/m/d",$end_week);
   <style style="text/css">
   
 tr:hover {
-    color: #fff;
-    background-color:#ddd;
+    background-color: #06183a;
+    color:#fff;
 }
 
 tr:hover td {
-    color: #003399;
-  
+    background-color: transparent; /* or #000 */
+     color:#fff;
 }
 
 button{
@@ -420,38 +420,38 @@ display: block;
                          <div class="table-wrapper-scroll-y my-custom-scrollbar">
                             <input type="text" value="" class="form-control" style="border-radius: 3.25rem;" id="myInput" onkeyup="myFunction()" placeholder="Search by region..."><br>
                     <table class="table" id="myTable">
-                      <thead class="" style="background-color: #06183a;">
+                      <thead class="" style="background-color: #06183a; color:#fff;">
                           
                           
-                            <th style="font-size:13px; color: #fff;
+                            <th style="font-size:13px;
     font-weight: 700;">
                          Appreciation Sent to:
                         </th>
                         
                         
-                        <th style="font-size:13px; color: #fff;
+                        <th style="font-size:13px;
     font-weight: 700;">
                          Appreciation Sent From:
                         </th>
-                        <th style="font-size:15px; color: #fff;
+                        <th style="font-size:15px;
     font-weight: 700;">
                           
                         Manager Email Address :
                         </th>
-                        <th style="font-size:13px; color: #fff;
+                        <th style="font-size:13px;
     font-weight: 700;">
                          
                         Quality Exhibited :
                         </th>
-                        <th style="font-size:13px; color: #fff;
+                        <th style="font-size:13px;
     font-weight: 700;">
                       Describe<br>quality exhibited:
                         </th>
-                        <th style="font-size:13px; color: #fff;
+                        <th style="font-size:13px;
     font-weight: 700;">
                       Region:
                         </th>
-                         <th style="font-size:13px; color: #fff;
+                         <th style="font-size:13px;
     font-weight: 700;">
                   Date:
                         </th>
@@ -480,7 +480,7 @@ display: block;
     $tdStyle='background-color:#008aff1a;font-weight: bold;';
 }                       
    else {
-    $tdStyle='background-color:#ffffff;';
+    $tdStyle='';
     $icon='<i class="material-icons" style="color:#00347a;">check_circle</i>';
 }
 
