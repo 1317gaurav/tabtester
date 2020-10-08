@@ -468,7 +468,7 @@ display: block;
                           $count=1;
                           foreach ($users as $user): 
                           $year=$count++;
-           $id = $user['date'];
+      $id = $user['date'];
     $_SESSION["sno"] =  $id;
     if($user['pread']=="0") {
     $tdStyle='background-color:#E8E8E8;font-weight: bold;';
