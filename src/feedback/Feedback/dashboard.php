@@ -646,7 +646,7 @@ echo "<tr>" .
 
       <!-- Modal Header -->
       <div class="modal-header">
-        <h4 class="modal-title">ShoutOuts sent this week</h4>
+        <h4 class="modal-title">ShoutOuts sent this Quarter</h4>
         <button type="button" class="close" data-dismiss="modal">&times;</button>
       </div>
 
@@ -753,7 +753,7 @@ echo "<tr>" .
 
       <!-- Modal Header -->
       <div class="modal-header">
-        <h4 class="modal-title">ShoutOuts sent this week</h4>
+        <h4 class="modal-title">Total ShoutOuts Sent</h4>
         <button type="button" class="close" data-dismiss="modal">&times;</button>
       </div>
 
