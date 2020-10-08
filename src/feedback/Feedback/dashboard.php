@@ -159,15 +159,15 @@ $end_week = date("Y/m/d",$end_week);
   <!-- CSS Just for demo purpose, don't include it in your project -->
   <link href="../assets/demo/demo.css" rel="stylesheet" />
   <style style="text/css">
-  
+/*   
 tr:hover {
     background-color: #06183a;
     color:#fff;
 }
-
+ */
 tr:hover td {
-    background-color: transparent; /* or #000 */
-     color:#fff;
+    background-color: #F5F5F5; /* or #000 */
+     color:#000;
 }
 
 button{
