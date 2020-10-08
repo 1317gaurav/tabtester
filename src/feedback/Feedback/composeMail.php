@@ -344,11 +344,11 @@ $count=1;
                   Bamboo hr
                 </a>
               </li>
-              <li style="color:#003399;">
+<!--               <li style="color:#003399;">
                 <a href="feedback.php">
                   Any suggestion !
                 </a>
-              </li>
+              </li> -->
               
             </ul>
           </nav>
