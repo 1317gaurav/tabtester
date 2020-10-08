@@ -388,7 +388,7 @@ display: block;
                 <div class="card-body">
                   <h4 class="card-title">ShoutOuts sent this Quarter</h4>
 
-              <span class="" style="font-size:50px;color:#03234c;"><?php echo $Q4 ?></span></p>
+              <span class="text-warning" style="font-size:50px;"><a href="" data-toggle="modal" data-target="#myModal1"><?php echo $Q4 ?></a></span></p>
                 </div>
                 <div class="card-footer">
                   <div class="stats">
@@ -405,7 +405,7 @@ display: block;
                 <div class="card-body">
                   <h4 class="card-title">Total ShoutOuts Sent</h4>
         
-              <span class="" style="font-size:50px; color:#03234c;"><?php echo $year ?></span></p>
+               <span class="text-danger" style="font-size:50px;"><a href="" data-toggle="modal" data-target="#myModal2"><?php echo $year ?></a></span></p>
                 </div>
                 <div class="card-footer">
                   <div class="stats">
@@ -634,6 +634,222 @@ echo "<tr>" .
           </div>
         </div>
       </div>
+              
+              
+               
+      <!----Quaterly  -->
+      
+      <div class="modal" id="myModal1">
+  <div class="modal-dialog">
+    <div class="modal-content" style="width:900px; margin-left:-180px;">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">ShoutOuts sent this week</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+           <input type="text" value="" class="form-control" id="myInput" onkeyup="myFunction()" placeholder="Search by region...">
+                    <table class="table" id="myTable">
+                      <thead class="" style="background-color: #06183a; color:#fff;">
+                          
+                          
+                            <th style="font-size:15px;  font-weight:400">
+                         Appreciation Sent to:
+                        </th>
+                        
+                        
+                        <th style="font-size:15px; font-weight:400">
+                         Appreciation Sent From:
+                        </th>
+                        <th style="font-size:15px; font-weight:400">
+                         
+                        Quality Exhibited :
+                        </th>
+                        <th style="font-size:15px; font-weight:400">
+                      Region:
+                        </th>
+                         <th style="font-size:15px;font-weight:400">
+                  Date:
+                        </th>
+                  <!--      <th style="font-size:18px; color:#000000;font-weight:400; text-align:center" >-->
+                  <!--Read/Unread-->
+                  <!--      </th>-->
+                        
+                        
+                      </thead>
+                      <tbody>
+                          
+                          
+                          <?php 
+                          $count=1;
+                          $dateTime=date("Y/m/d");
+                          foreach ($users as $user): 
+                               if (($user['month'] >='10') && ($user['month'] <= '12')){
+                          $year=$count++;
+           $id = $user['date'];
+    $_SESSION["sno"] =  $id;
+    if($user['pread']=="0") {
+    $tdStyle='background-color:#E8E8E8;font-weight: bold;';
+    
+     $icon='VIEW';
+}
+if($user['date']==$dateTime) {
+    $tdStyle='background-color:#008aff1a;font-weight: bold;';
+    
+     $icon='VIEW';
+}
+else {
+    $tdStyle='';
+    $icon='<i class="material-icons" style="color:#00347a;">check_circle</i>';
+}
+
+$text = $user["description"];
+$newtext = wordwrap($text, 50, "<br />\n");
+
+
+
+echo "<tr>" .
+            '<form action="inbox.php" method="post">'.
+            "<td style='$tdStyle'><input type='hidden' name='from'  value='" . $user["to"] . "'  />".$user["to"]."</td>".
+            "<td style='$tdStyle'><input type='hidden' name='a'  value='" . $user["from"] . "'  />".$user["from"]."</td>".
+              "<td style='$tdStyle'><input type='hidden' name='a'  value='" . $user["message"] . "'  />".$user["message"]."</td>".
+            "<td style='$tdStyle'><input type='hidden' name='a1'  value='" . $user["region"] . "'  />".$user["region"]."</td>".
+             "<td style='$tdStyle'><input type='hidden' name='dateu'  value='" . $user["date"] . "'  />".$user["date"]."</td>".
+            "</form>".
+            "</tr>";
+
+
+}
+                       
+                       ?>
+                        <?php 
+                        endforeach; 
+                        ?>
+                      </tbody>
+                    </table>
+  </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+
+
+
+    
+          </div>
+        </div>
+      </div>
+      <!-- end -->
+      
+       <!----Total  -->
+      <div class="modal" id="myModal2">
+  <div class="modal-dialog">
+    <div class="modal-content" style="width:900px; margin-left:-180px;">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">ShoutOuts sent this week</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+           <input type="text" value="" class="form-control" id="myInput" onkeyup="myFunction()" placeholder="Search by region...">
+                    <table class="table" id="myTable">
+                      <thead class="" style="background-color: #06183a; color:#fff;">
+                          
+                          
+                            <th style="font-size:15px;  font-weight:400">
+                         Appreciation Sent to:
+                        </th>
+                        
+                        
+                        <th style="font-size:15px; font-weight:400">
+                         Appreciation Sent From:
+                        </th>
+                        <th style="font-size:15px; font-weight:400">
+                         
+                        Quality Exhibited :
+                        </th>
+                        <th style="font-size:15px; font-weight:400">
+                      Region:
+                        </th>
+                         <th style="font-size:15px;font-weight:400">
+                  Date:
+                        </th>
+                  <!--      <th style="font-size:18px; color:#000000;font-weight:400; text-align:center" >-->
+                  <!--Read/Unread-->
+                  <!--      </th>-->
+                        
+                        
+                      </thead>
+                      <tbody>
+                          
+                          
+                          <?php 
+                          $count=1;
+                          $dateTime=date("Y/m/d");
+                          foreach ($users as $user): 
+                              
+                          $year=$count++;
+           $id = $user['date'];
+    $_SESSION["sno"] =  $id;
+    if($user['pread']=="0") {
+    $tdStyle='background-color:#E8E8E8;font-weight: bold;';
+    
+     $icon='VIEW';
+}
+if($user['date']==$dateTime) {
+    $tdStyle='background-color:#008aff1a;font-weight: bold;';
+    
+     $icon='VIEW';
+}
+else {
+    $tdStyle='';
+    $icon='<i class="material-icons" style="color:#00347a;">check_circle</i>';
+}
+
+$text = $user["description"];
+$newtext = wordwrap($text, 50, "<br />\n");
+
+
+
+echo "<tr>" .
+            '<form action="inbox.php" method="post">'.
+            "<td style='$tdStyle'><input type='hidden' name='from'  value='" . $user["to"] . "'  />".$user["to"]."</td>".
+            "<td style='$tdStyle'><input type='hidden' name='a'  value='" . $user["from"] . "'  />".$user["from"]."</td>".
+              "<td style='$tdStyle'><input type='hidden' name='a'  value='" . $user["message"] . "'  />".$user["message"]."</td>".
+            "<td style='$tdStyle'><input type='hidden' name='a1'  value='" . $user["region"] . "'  />".$user["region"]."</td>".
+             "<td style='$tdStyle'><input type='hidden' name='dateu'  value='" . $user["date"] . "'  />".$user["date"]."</td>".
+            "</form>".
+            "</tr>";
+                       
+                       ?>
+                        <?php 
+                        endforeach; 
+                        ?>
+                      </tbody>
+                    </table>
+  </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+
+
+
+    
+          </div>
+        </div>
+      </div>
+      
+      <!-- end -->
+      
    
         <footer class="footer">
         <div class="container-fluid">
