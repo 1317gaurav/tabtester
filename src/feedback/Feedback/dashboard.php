@@ -122,7 +122,8 @@ $end_week = date("Y/m/d",$end_week);
                         endforeach;
                          $count=1;
                           foreach ($users as $user):
-                          $year=$count++;
+                          $years=$count++;
+                           $year=$years + 57;
                           
                          
                         endforeach;
