@@ -466,6 +466,7 @@ display: block;
                           
                           <?php 
                           $count=1;
+                          $dateTime=date("Y/m/d");
                           foreach ($users as $user): 
                           $year=$count++;
       $id = $user['date'];
@@ -474,7 +475,11 @@ display: block;
     $tdStyle='background-color:#E8E8E8;font-weight: bold;';
     
      $icon='VIEW';
-} else {
+} 
+   if($user['date']==$dateTime) {
+    $tdStyle='background-color:#008aff1a;font-weight: bold;';
+}                       
+   else {
     $tdStyle='background-color:#ffffff;';
     $icon='<i class="material-icons" style="color:#00347a;">check_circle</i>';
 }
