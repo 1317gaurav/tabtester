@@ -542,7 +542,7 @@ echo "<tr>" .
 
       <!-- Modal body -->
       <div class="modal-body">
-           <input type="text" value="" class="form-control" id="myInput1" onkeyup="myFunction1()" placeholder="Search by region..."><br>
+           <input type="text" value="" class="form-control" style="border-radius: 3.25rem;" id="myInput1" onkeyup="myFunction1()" placeholder="Search by region..."><br>
                     <table class="table" id="myTable1">
                       <thead class="" style="background-color: #06183a; color:#fff;">
                           
@@ -651,7 +651,7 @@ echo "<tr>" .
 
       <!-- Modal body -->
       <div class="modal-body">
-           <input type="text" value="" class="form-control" id="myInput2" onkeyup="myFunction2()" placeholder="Search by region..."><br>
+           <input type="text" value="" class="form-control" style="border-radius: 3.25rem;" id="myInput2" onkeyup="myFunction2()" placeholder="Search by region..."><br>
                     <table class="table" id="myTable2">
                       <thead class="" style="background-color: #06183a; color:#fff;">
                           
@@ -758,7 +758,7 @@ echo "<tr>" .
 
       <!-- Modal body -->
       <div class="modal-body">
-           <input type="text" value="" class="form-control" id="myInput3" onkeyup="myFunction3()" placeholder="Search by region..."><br>
+           <input type="text" value="" class="form-control" style="border-radius: 3.25rem;" id="myInput3" onkeyup="myFunction3()" placeholder="Search by region..."><br>
                     <table class="table" id="myTable3">
                       <thead class="" style="background-color: #06183a; color:#fff;">
                           
