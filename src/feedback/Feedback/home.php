@@ -1,5 +1,10 @@
 <?php
 session_start();
+if(!isset($_SESSION['user']['email']))
+{
+header("Location:../../index.html");    
+    
+}
 // print_r($_SESSION['user']);
 
 ?>
