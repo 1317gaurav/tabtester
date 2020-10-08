@@ -332,39 +332,26 @@ echo "<tr>" .
         </div>
       </div>
    
-       <footer class="footer">
+      <footer class="footer">
         <div class="container-fluid">
           <nav class="float-left">
             <ul>
-              <li>
-                <a target="_blank" href="https://www.taboola.com/">
-                  Taboola
+                <li>
+                <a target="_blank" href="https://taboola.bamboohr.com/" style="color:green">
+                  Bamboo hr
                 </a>
               </li>
-              <li>
-                <a href="https://brain.taboola.com/">
-                  Brain
-                </a>
-              </li>
-              <li>
-                <a href="https://blog.taboola.com/">
-                  Blog
-                </a>
-              </li>
-               <li style="color:#003399;">
+<!--               <li style="color:#003399;">
                 <a href="feedback.php">
                   Any suggestion !
                 </a>
-              </li>
+              </li> -->
               
             </ul>
           </nav>
           <div class="copyright float-right">
-            &copy;
-            <script>
-              document.write(new Date().getFullYear())
-            </script>, Powered<i class="material-icons"></i> by
-            <a href="" target="_blank">Territory Implementation</a>
+            &copy;Powered<i class="material-icons"></i> by
+            <a href="#" target="_blank" style="color:#002b7a;"><b>Territory Implementation</b></a>
           </div>
         </div>
       </footer>
