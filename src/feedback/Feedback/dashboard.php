@@ -542,8 +542,8 @@ echo "<tr>" .
 
       <!-- Modal body -->
       <div class="modal-body">
-           <input type="text" value="" class="form-control" id="myInput" onkeyup="myFunction()" placeholder="Search by region...">
-                    <table class="table" id="myTable">
+           <input type="text" value="" class="form-control" id="myInput1" onkeyup="myFunction1()" placeholder="Search by region..."><br>
+                    <table class="table" id="myTable1">
                       <thead class="" style="background-color: #06183a; color:#fff;">
                           
                           
@@ -651,8 +651,8 @@ echo "<tr>" .
 
       <!-- Modal body -->
       <div class="modal-body">
-           <input type="text" value="" class="form-control" id="myInput" onkeyup="myFunction()" placeholder="Search by region...">
-                    <table class="table" id="myTable">
+           <input type="text" value="" class="form-control" id="myInput2" onkeyup="myFunction2()" placeholder="Search by region..."><br>
+                    <table class="table" id="myTable2">
                       <thead class="" style="background-color: #06183a; color:#fff;">
                           
                           
@@ -758,8 +758,8 @@ echo "<tr>" .
 
       <!-- Modal body -->
       <div class="modal-body">
-           <input type="text" value="" class="form-control" id="myInput" onkeyup="myFunction()" placeholder="Search by region...">
-                    <table class="table" id="myTable">
+           <input type="text" value="" class="form-control" id="myInput3" onkeyup="myFunction3()" placeholder="Search by region..."><br>
+                    <table class="table" id="myTable3">
                       <thead class="" style="background-color: #06183a; color:#fff;">
                           
                           
@@ -943,6 +943,70 @@ function myFunction() {
 
 
 
+<script>
+function myFunction1() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput1");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable1");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[3];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script>
+
+
+
+<script>
+function myFunction2() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput2");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable2");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[3];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script>
+
+<script>
+function myFunction3() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput3");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable3");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[3];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script>
 
 
 
