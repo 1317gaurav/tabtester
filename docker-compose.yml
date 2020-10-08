@@ -14,7 +14,7 @@ services:
     dns_search:
       - taboolasyndication.com
     ports:
-      - "444:80"
+      - "443:80"
     networks:
       - app-network
 networks:
