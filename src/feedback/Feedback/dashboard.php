@@ -166,7 +166,8 @@ tr:hover {
 }
 
 tr:hover td {
-    color: #003399;
+    color: #ffffff;
+    background-color: #042d56 !important;
   
 }
 
