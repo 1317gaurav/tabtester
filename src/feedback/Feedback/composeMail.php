@@ -129,7 +129,7 @@ $count=1;
                          foreach ($users as $user): 
                           if($user['to']==$from && $user['pread']==0)
                           {
-                          echo '<a class="dropdown-item" href="receive.php"><span style="color:#ff6600;">Shout From</span> &nbsp;'. $user["fname"] .'</a>';
+                          echo '<a class="dropdown-item" href="receiveMail.php"><span style="color:#ff6600;">Shout From</span> &nbsp;'. $user["fname"] .'</a>';
                           } 
                         endforeach;
 
