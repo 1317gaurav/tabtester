@@ -869,7 +869,7 @@ echo "<tr>" .
               
             </ul>
           </nav>
-          <div class="copyright float-right">
+          <div class="copyright float-right" style="padding: 12px 0;margin-left: 930px;">
             &copy;Powered<i class="material-icons"></i> by
             <a href="#" target="_blank" style="color:#002b7a;"><b>Territory Implementation</b></a>
           </div>
