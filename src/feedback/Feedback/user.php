@@ -183,7 +183,7 @@ $count=1;
                           
 <fieldset>
  
-  <select class="form-control dropdown" id="occupation" name="region">
+  <select class="form-control dropdown" id="occupation" name="region" required>
     <option value="" selected="selected" disabled="disabled">-- select one --</option>
     
     <option value="APAC">APAC</option>
@@ -229,7 +229,7 @@ $count=1;
                           
 <fieldset>
  
-  <select class="form-control dropdown" id="occupation" name="msg">
+  <select class="form-control dropdown" id="occupation" name="msg" required>
     <option value="" selected="selected" disabled="disabled">-- select the quality --</option>
     <option value="" disabled="disabled">Professional Services</option>
     
