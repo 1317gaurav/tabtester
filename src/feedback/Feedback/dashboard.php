@@ -162,12 +162,11 @@ $end_week = date("Y/m/d",$end_week);
   
 tr:hover {
     color: #fff;
-    background-color:#002c79;
+    background-color:#ddd;
 }
 
 tr:hover td {
-    color: #ffffff;
-    background-color: #042d56 !important;
+    color: #003399;
   
 }
 
