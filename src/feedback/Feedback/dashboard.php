@@ -356,13 +356,13 @@ display: block;
                 <div class="ct-chart"></div>
                 </div>
                 <div class="card-body">
-                  <h4 class="card-title">ShoutOuts sent this weeek</h4>
+                  <h4 class="card-title">ShoutOuts sent this week</h4>
                   <p class="card-category">
-              <span class="" style="font-size:50px; color:#03234c;"><?php echo $unread1 ?></span></p>
+              <span class="" style="font-size:50px; color:#03234c;"><?php echo $unread1 ?></span></p><br>
                 </div>
                 <div class="card-footer">
                   <div class="stats">
-                    <i class="material-icons">access_time</i> updated <?php echo date('Y-m-d H:i:s'); ?>
+                    <i class="material-icons">access_time</i> updated on <?php echo date('Y-m-d H:i:s'); ?>
                   </div>
                 </div>
               </div>
@@ -379,7 +379,7 @@ display: block;
                 </div>
                 <div class="card-footer">
                   <div class="stats">
-                   <i class="material-icons">access_time</i> updated <?php echo date('Y-m-d H:i:s'); ?>
+                   <i class="material-icons">access_time</i> updated on <?php echo date('Y-m-d H:i:s'); ?>
                   </div>
                 </div>
               </div>
@@ -396,7 +396,7 @@ display: block;
                 </div>
                 <div class="card-footer">
                   <div class="stats">
-                  <i class="material-icons">access_time</i> updated <?php echo date('Y-m-d H:i:s'); ?>
+                  <i class="material-icons">access_time</i> updated on <?php echo date('Y-m-d H:i:s'); ?>
                   </div>
                 </div>
               </div>
