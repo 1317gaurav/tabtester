@@ -479,7 +479,8 @@ display: block;
                           $count=1;
                           $dateTime=date("Y/m/d");
                           foreach ($users as $user): 
-                          $year=$count++;
+                         $years=$count++;
+                           $year=$years + 57;
       $id = $user['date'];
     $_SESSION["sno"] =  $id;
     if($user['pread']=="0") {
@@ -580,7 +581,8 @@ echo "<tr>" .
                           $dateTime=date("Y/m/d");
                           foreach ($users as $user): 
                                if (($user['date'] >= $start_week) && ($user['date'] <= $end_week)){
-                          $year=$count++;
+                          $years=$count++;
+                           $year=$years + 57;
            $id = $user['date'];
     $_SESSION["sno"] =  $id;
     if($user['pread']=="0") {
@@ -689,7 +691,8 @@ echo "<tr>" .
                           $dateTime=date("Y/m/d");
                           foreach ($users as $user): 
                                if (($user['month'] >='10') && ($user['month'] <= '12')){
-                          $year=$count++;
+                          $years=$count++;
+                           $year=$years + 57;
            $id = $user['date'];
     $_SESSION["sno"] =  $id;
     if($user['pread']=="0") {
@@ -796,7 +799,8 @@ echo "<tr>" .
                           $dateTime=date("Y/m/d");
                           foreach ($users as $user): 
                               
-                          $year=$count++;
+                          $years=$count++;
+                           $year=$years + 57;
            $id = $user['date'];
     $_SESSION["sno"] =  $id;
     if($user['pread']=="0") {
@@ -909,8 +913,7 @@ new Chartist.Bar('.ct-chart1', {
 
 
 <script>
-    
-
+   
 new Chartist.Bar('.ct-chart2', {
   labels: ['2020'],
   series: [<?php echo $year ?>]
