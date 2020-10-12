@@ -9,8 +9,8 @@ services:
     container_name: tabtester
     restart: unless-stopped
     dns: 
-      - 10.0.0.2
-      - 8.8.8.8
+      - 172.16.19.4
+      - 10.105.19.5
     dns_search:
       - taboolasyndication.com
     ports:
