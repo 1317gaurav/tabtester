@@ -1,10 +1,10 @@
 <?php
 session_start();
 if(!isset($_SESSION['user']['email']))
-{
-header("Location:../../index.html");    
+// {
+// header("Location:../../index.html");    
     
-}
+// }
 ?>
 <html>
 <head>
