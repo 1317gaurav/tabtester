@@ -73,7 +73,7 @@ $from=$_SESSION['user']['email'];
 if($from == 'gaurav.k@taboola.com' or $from == 'jay.s@taboola.com' or $from == 'sudip.c@taboola.com' or $from == 'harel.u@taboola.com' or $from == 'shay.w@taboola.com'
 or $from == 'hila.d@taboola.com' or $from == 'irit.l@taboola.com' or $from == 'nili.n@taboola.com' or $from == 'lee.h@taboola.com' or $from == 'hadas.shmueli@taboola.com'
 or $from == 'scott.s@taboola.com' or $from == 'nidhi.s@taboola.com' or $from == 'anjali.o@taboola.com' or $from == 'jon.w@taboola.com' or $from == 'eloise.l@taboola.com'
-or $from == 'nadav.p@taboola.com' or $from == 'kristy.s@taboola.com' or $from == 'digvijay.s@taboola.com')
+or $from == 'nadav.p@taboola.com' or $from == 'kristy.s@taboola.com' or $from == 'digvijay.s@taboola.com' or $from == 'yven.g@taboola.com' or $from == 'jon.w@taboola.com')
 {
     ?>
     <script>
