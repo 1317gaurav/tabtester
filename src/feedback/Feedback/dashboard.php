@@ -900,7 +900,7 @@ new Chartist.Bar('.ct-chart', {
 <script>
     
 new Chartist.Bar('.ct-chart1', {
-  labels: ['Q1-2020', 'Q2-2020', 'Q3-2020','Q4-2020' ],
+  labels: ['Q1-2021', 'Q2-2021', 'Q3-2021','Q4-2021' ],
   series: [<?php echo $Q1 ?>,<?php echo $Q2 ?>,<?php echo $Q3 ?>,<?php echo $Q4 ?>]
 }, {
   distributeSeries: true
