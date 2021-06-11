@@ -37,7 +37,13 @@ $dateYear=$user['date'];
                           $count=1;
                           foreach ($users as $user):
             if (($user['date'] >= $start_week) && ($user['date'] <= $end_week)){
-                          $unread1=$count++;
+                          $unread2=$count++;
+                          if($unread2 == 0){
+                          $unread1 ="No ShoutOut Sent this week";
+                          }
+                          else{
+                              $unread1 == $unread2;
+                          }
                           } 
                          
                         endforeach;
@@ -132,7 +138,13 @@ $dateYear=$user['date'];
                          
                         endforeach;
                         
-                        
+         $Quater1 = $Q1 + $Q2 + $Q3 + $Q4; 
+         if($Quater1 == 0){
+         $Quater ="No ShoutOut Sent";
+         }
+         else{
+         $Quater == $Quater1;
+         }
                         
                         
                 
@@ -393,7 +405,7 @@ display: block;
                 <div class="card-body">
                   <h4 class="card-title">ShoutOuts sent this Quarter</h4>
 
-              <span class="text-warning" style="font-size:50px;"><a href="" data-toggle="modal" data-target="#myModal1"><?php echo $Q4 ?></a></span></p>
+              <span class="text-warning" style="font-size:50px;"><a href="" data-toggle="modal" data-target="#myModal1"><?php echo $Quater ?></a></span></p>
                 </div>
                 <div class="card-footer">
                   <div class="stats">
