@@ -915,7 +915,7 @@ new Chartist.Bar('.ct-chart1', {
 <script>
    
 new Chartist.Bar('.ct-chart2', {
-  labels: ['2020'],
+  labels: ['2021'],
   series: [<?php echo $year ?>]
 }, {
   distributeSeries: true
