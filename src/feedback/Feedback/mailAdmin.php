@@ -32,6 +32,7 @@ $_SESSION["msg"] = $msg;
 
 $date=date("Y/m/d");
 
+
 $msg1=$_POST['msg1'];
 $subject = "ShoutOut from $name ";
 $headers  = 'MIME-Version: 1.0' . "\r\n";
@@ -85,6 +86,7 @@ if($domain == $domain1)
 $dateTime=date("Y/m/d");
 $day=date("l");
 $month = date('m');
+$year = date('Y');
      
      
                 $current_data = file_get_contents('users.json');  
@@ -95,6 +97,7 @@ $month = date('m');
                      'date'     =>     $dateTime,
                      'day'      =>  $day,
                      'month'      =>  $month,
+                     'year'    => $year,
                      'to'          =>     $to,  
                      'manager'     =>     $cc,
                     'from'     =>     $from,
