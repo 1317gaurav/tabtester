@@ -29,6 +29,9 @@ $end_week = strtotime("+1 week",$start_week);
 
 $start_week = date("Y/m/d",$start_week);
 $end_week = date("Y/m/d",$end_week);
+$dateYear=$user['date'];
+
+
 
 // echo $start_week.' '.$end_week ;
                           $count=1;
@@ -94,28 +97,29 @@ $end_week = date("Y/m/d",$end_week);
                         
                         $count=1;
                           foreach ($users as $user):
-                              if (($user['month'] >='01') && ($user['month'] <= '03')){
+                             
+                              if (($user['month'] >='01') && ($user['month'] <= '03') && ($user['year'] == '2021')){
                           $Q1=$count++;
                           } 
                          
                         endforeach;
                         $count=1;
                           foreach ($users as $user):
-                              if (($user['month'] >='04') && ($user['month'] <= '06')){
+                              if (($user['month'] >='04') && ($user['month'] <= '06') && ($user['year'] == '2021')){
                           $Q2=$count++;
                           } 
                          
                         endforeach;
                         $count=1;
                           foreach ($users as $user):
-                              if (($user['month'] >='07' && ($user['month'] <= '09'))){
+                              if (($user['month'] >='07') && ($user['month'] <= '09') && ($user['year'] == '2021')){
                           $Q3=$count++;
                           } 
                          
                         endforeach;
                         $count=1;
                           foreach ($users as $user):
-                              if (($user['month'] >='10') && ($user['month'] <= '12')){
+                              if (($user['month'] >='10') && ($user['month'] <= '12') && ($user['year'] == '2021')){
                           $Q4=$count++;
                           } 
                          
