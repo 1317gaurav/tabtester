@@ -212,7 +212,7 @@ width: 125px;
 $(document).ready(function(){
      console.log('test');
   $.ajax({
-    url:'https://gaia.taboolasyndication.com/v1/users?active_status=true',
+    url:'https://gaia.taboolasyndication.com/v1/users?record_type=full',
     type:"get",
     dataType: 'json',
     async: true,
