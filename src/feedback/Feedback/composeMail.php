@@ -273,7 +273,7 @@ $count=1;
       <option value="Taking on and delivering on projects outside day-to-day responsibilities">Taking on and delivering on projects outside day-to-day responsibilities</option>
       
       
-      <option value="" selected="selected" disabled="disabled">-- select the skills/habits -- </option>
+      <option value=""  disabled="disabled">-- select the skills/habits -- </option>
        <option value="Ownership - Be proactive">Ownership - Be proactive</option>
        <option value="Vision - Begin with the end in mind">Vision - Begin with the end in mind</option>
        <option value="Focus - Put first things first">Focus - Put first things first</option>
