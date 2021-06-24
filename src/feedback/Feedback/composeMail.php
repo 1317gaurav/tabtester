@@ -261,7 +261,19 @@ $count=1;
      <option value="Coming up with innovative/creative solutions">Coming up with innovative/creative solutions </option>
     <option value="Saving time or money">Saving time or money </option>
     <option value="Taking on and delivering on projects outside day-to-day responsibilities">Taking on and delivering on projects outside day-to-day responsibilities </option> -->
-      <option value="" selected="selected" disabled="disabled">-- select the quality -- </option>
+
+       <option value="" selected="selected" disabled="disabled">-- select the quality -- </option>
+       <option value="Improving quality">Improving quality</option>
+       <option value="Going above and beyond to support colleagues">Going above and beyond to support colleagues</option>
+       <option value="Demonstrating exemplary collaboration across geos/teams/functions">Demonstrating exemplary collaboration across geos/teams/functions</option>
+       <option value="Getting things done ahead of schedule">Getting things done ahead of schedule</option>
+       <option value="Overcoming obstacles">Overcoming obstacles</option>
+       <option value="Coming up with innovative/creative solutions">Coming up with innovative/creative solutions</option>
+       <option value="Saving time or money">Saving time or money</option>   
+      <option value="Taking on and delivering on projects outside day-to-day responsibilities">Taking on and delivering on projects outside day-to-day responsibilities</option>
+      
+      
+      <option value="" selected="selected" disabled="disabled">-- select the skills/habits -- </option>
        <option value="Ownership - Be proactive">Ownership - Be proactive</option>
        <option value="Vision - Begin with the end in mind">Vision - Begin with the end in mind</option>
        <option value="Focus - Put first things first">Focus - Put first things first</option>
@@ -269,10 +281,7 @@ $count=1;
        <option value="2 Way communication - Seek first to understand, then to be understood ">2 Way communication - Seek first to understand, then to be understood </option>
        <option value="1+1=3 - Synergize">1+1=3 - Synergize</option>
        <option value="Renewal - Sharpening the saw">Renewal - Sharpening the saw</option>   
-    <option value="Contributing to the maintenance and definition of Taboola's culture">Contributing to the maintenance and definition of Taboola's culture</option>
-    <option value="Generally being a great person to work with">Generally being a great person to work with</option> 
-      
-      
+    
   </select>
 </fieldset>
                           </div>
