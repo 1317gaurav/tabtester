@@ -234,35 +234,12 @@ $count=1;
                         <div class="form-group">
                           <!--<label>About Me</label>-->
                           <div class="form-group">
-                            <label class="bmd-label-floating">Select the quality exhibited  :</label>
                           
-<fieldset>
- 
-  <select class="form-control dropdown" id="occupation" name="msg">
-<!--     <option value="" selected="selected" disabled="disabled">-- select the quality --</option>
-    <option value="" disabled="disabled">Professional Services</option>
-    
-    <option value="Customer Centricity">Customer Centricity</option>
-   <option value="Be an Expert">Be an Expert</option>
-        <option value="Globalization">Globalization</option>
-      <option value="Collaboration">Collaboration</option>
-      <option value="Humbleness">Humbleness</option>
-       <option value="Assertiveness">Assertiveness</option>
-        <option value="Empowering">Empowering </option>
-    
-    <option value="" disabled="disabled">EMEA BUSINESS</option>
-    <option value="Improving quality (anything from processes to life at Taboola)">Improving quality (anything from processes to life at Taboola)</option>
-    <option value="Going above and beyond to support colleagues
-">Going above and beyond to support colleagues
- </option> -->
-<!--     <option value="Demonstrating exemplary collaboration across geos/teams/functions">Demonstrating exemplary collaboration across geos/teams/functions </option>
-    <option value="Getting things done at super-speed!">Getting things done at super-speed! </option>
-    <option value="Overcoming obstacles">Overcoming obstacles </option>
-     <option value="Coming up with innovative/creative solutions">Coming up with innovative/creative solutions </option>
-    <option value="Saving time or money">Saving time or money </option>
-    <option value="Taking on and delivering on projects outside day-to-day responsibilities">Taking on and delivering on projects outside day-to-day responsibilities </option> -->
 
-       <option value="" selected="selected" disabled="disabled">-- select the quality -- </option>
+<label>Select the quality:</label>
+<select class="form-control dropdown">
+ <optgroup label="Select the quality :">
+  <option value="" selected="selected" disabled="disabled">-- select one --</option>
        <option value="Improving quality">Improving quality</option>
        <option value="Going above and beyond to support colleagues">Going above and beyond to support colleagues</option>
        <option value="Demonstrating exemplary collaboration across geos/teams/functions">Demonstrating exemplary collaboration across geos/teams/functions</option>
@@ -271,19 +248,20 @@ $count=1;
        <option value="Coming up with innovative/creative solutions">Coming up with innovative/creative solutions</option>
        <option value="Saving time or money">Saving time or money</option>   
       <option value="Taking on and delivering on projects outside day-to-day responsibilities">Taking on and delivering on projects outside day-to-day responsibilities</option>
-      
-      
-      <option value=""  disabled="disabled">-- select the skills/habits -- </option>
-       <option value="Ownership - Be proactive">Ownership - Be proactive</option>
+      <option value=""  disabled="disabled">--------------------------------------------------------------------------------</option>
+  </optgroup>
+<optgroup label="Select the skills/habits :">
+       
+   <option value="Ownership - Be proactive">Ownership - Be proactive</option>
        <option value="Vision - Begin with the end in mind">Vision - Begin with the end in mind</option>
        <option value="Focus - Put first things first">Focus - Put first things first</option>
        <option value="Winning together - Think win-win">Winning together - Think win-win</option>
        <option value="2 Way communication - Seek first to understand, then to be understood ">2 Way communication - Seek first to understand, then to be understood </option>
        <option value="1+1=3 - Synergize">1+1=3 - Synergize</option>
-       <option value="Renewal - Sharpening the saw">Renewal - Sharpening the saw</option>   
-    
-  </select>
-</fieldset>
+       <option value="Renewal - Sharpening the saw">Renewal - Sharpening the saw</option>
+            <option value=""  disabled="disabled">--------------------------------------------------------------------------------</option>
+  </optgroup>
+</select>
                           </div>
                         </div>
                       </div>
@@ -293,6 +271,7 @@ $count=1;
                       
                       
                        <div class="row">
+                         
                            
                             <div class="col-md-12">
                         <div class="form-group">
