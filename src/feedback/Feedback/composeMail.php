@@ -237,7 +237,7 @@ $count=1;
                           
 
 <label>Select the quality:</label>
-<select class="form-control dropdown">
+<select class="form-control dropdown" id="occupation" name="msg">
  <optgroup label="Select the quality :">
   <option value="" selected="selected" disabled="disabled">-- select one --</option>
        <option value="Improving quality">Improving quality</option>
